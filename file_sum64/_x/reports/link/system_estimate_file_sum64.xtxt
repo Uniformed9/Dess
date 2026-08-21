@@ -1,0 +1,42 @@
+===============================================================================
+Version:    v++ v2022.2.2 (64-bit)
+Build:      SW Build 3716524 on 2023-02-17-15:43:22
+Copyright:  Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+Created:    Fri Aug 21 04:02:30 2026
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             file_sum64
+Target Device:           xilinx:u2:gen3x4_xdma_gc_2:202110.1
+Target Clock:            300.000000MHz
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name  Type  Target              OpenCL Library  Compute Units
+-----------  ----  ------------------  --------------  -------------
+file_sum64   c     fpga0:OCL_REGION_0  file_sum64      1
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     file_sum64
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit  Kernel Name  Module Name                   Target Frequency  Estimated Frequency
+------------  -----------  ----------------------------  ----------------  -------------------
+file_sum64_1  file_sum64   file_sum64_Pipeline_sum_loop  300.300293        411.015198
+file_sum64_1  file_sum64   file_sum64                    300.300293        411.015198
+
+Latency Information
+Compute Unit  Kernel Name  Module Name                   Start Interval  Best (cycles)  Avg (cycles)  Worst (cycles)  Best (absolute)  Avg (absolute)  Worst (absolute)
+------------  -----------  ----------------------------  --------------  -------------  ------------  --------------  ---------------  --------------  ----------------
+file_sum64_1  file_sum64   file_sum64_Pipeline_sum_loop  undef           undef          undef         undef           undef            undef           undef
+file_sum64_1  file_sum64   file_sum64                    undef           undef          undef         undef           undef            undef           undef
+
+Area Information
+Compute Unit  Kernel Name  Module Name                   FF    LUT   DSP  BRAM  URAM
+------------  -----------  ----------------------------  ----  ----  ---  ----  ----
+file_sum64_1  file_sum64   file_sum64_Pipeline_sum_loop  3291  1726  0    0     0
+file_sum64_1  file_sum64   file_sum64                    5246  5412  0    0     0
+-------------------------------------------------------------------------------

@@ -128,3 +128,1083 @@
  }
 }
 </ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:27:13 2026",
+ "timestampMillis": "1787304433347",
+ "status": {
+  "cmdId": "03efb8f2-1f1d-49e6-8a9a-01facb36e6e3",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 02:27:13 2026",
+ "timestampMillis": "1787304433349",
+ "buildStep": {
+  "cmdId": "10f44a71-2375-4175-a2ba-b0d0ba48fc27",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -sdsl /home/uni/project/Dess/file_sum64/_x/link/int/sdsl.dat -rtd /home/uni/project/Dess/file_sum64/_x/link/int/cf2sw.rtd -nofilter /home/uni/project/Dess/file_sum64/_x/link/int/cf2sw_full.rtd -xclbin /home/uni/project/Dess/file_sum64/_x/link/int/xclbin_orig.xml -o /home/uni/project/Dess/file_sum64/_x/link/int/xclbin_orig.1.xml",
+  "args": [
+   "-sdsl",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/sdsl.dat",
+   "-rtd",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/cf2sw.rtd",
+   "-nofilter",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/cf2sw_full.rtd",
+   "-xclbin",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/xclbin_orig.xml",
+   "-o",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/xclbin_orig.1.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:27:13 2026",
+ "timestampMillis": "1787304433349",
+ "status": {
+  "cmdId": "10f44a71-2375-4175-a2ba-b0d0ba48fc27",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:27:18 2026",
+ "timestampMillis": "1787304438520",
+ "status": {
+  "cmdId": "10f44a71-2375-4175-a2ba-b0d0ba48fc27",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 02:27:18 2026",
+ "timestampMillis": "1787304438522",
+ "buildStep": {
+  "cmdId": "479b0ea2-1364-4130-af85-b4d506a7033e",
+  "name": "rtd2_system_diagram",
+  "logFile": "",
+  "commandLine": "rtd2SystemDiagram",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:27:18 2026",
+ "timestampMillis": "1787304438522",
+ "status": {
+  "cmdId": "479b0ea2-1364-4130-af85-b4d506a7033e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 02:27:18 2026",
+ "timestampMillis": "1787304438861",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/link/int/systemDiagramModel.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:27:18 2026",
+ "timestampMillis": "1787304438862",
+ "status": {
+  "cmdId": "479b0ea2-1364-4130-af85-b4d506a7033e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 02:27:18 2026",
+ "timestampMillis": "1787304438863",
+ "buildStep": {
+  "cmdId": "f802276c-227f-49b2-825a-a0d26d91587d",
+  "name": "vpl",
+  "logFile": "",
+  "commandLine": "vpl -t hw -f xilinx_u2_gen3x4_xdma_gc_2_202110_1 --remote_ip_cache /home/uni/project/Dess/file_sum64/.ipcache --output_dir /home/uni/project/Dess/file_sum64/_x/link/int --log_dir /home/uni/project/Dess/file_sum64/_x/logs/link --report_dir /home/uni/project/Dess/file_sum64/_x/reports/link --config /home/uni/project/Dess/file_sum64/_x/link/int/vplConfig.ini -k /home/uni/project/Dess/file_sum64/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/uni/project/Dess/file_sum64/_x/link --no-info --iprepo /home/uni/project/Dess/file_sum64/_x/link/int/xo/ip_repo/xilinx_com_hls_file_sum64_1_0 --messageDb /home/uni/project/Dess/file_sum64/_x/link/run_link/vpl.pb /home/uni/project/Dess/file_sum64/_x/link/int/dr.bd.tcl",
+  "args": [
+   "-t",
+   "hw",
+   "-f",
+   "xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+   "--remote_ip_cache",
+   "/home/uni/project/Dess/file_sum64/.ipcache",
+   "--output_dir",
+   "/home/uni/project/Dess/file_sum64/_x/link/int",
+   "--log_dir",
+   "/home/uni/project/Dess/file_sum64/_x/logs/link",
+   "--report_dir",
+   "/home/uni/project/Dess/file_sum64/_x/reports/link",
+   "--config",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/vplConfig.ini",
+   "-k",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/kernel_info.dat",
+   "--webtalk_flag",
+   "Vitis",
+   "--temp_dir",
+   "/home/uni/project/Dess/file_sum64/_x/link",
+   "--no-info",
+   "--iprepo",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/xo/ip_repo/xilinx_com_hls_file_sum64_1_0",
+   "--messageDb",
+   "/home/uni/project/Dess/file_sum64/_x/link/run_link/vpl.pb",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/dr.bd.tcl"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/uni/project/Dess/file_sum64/_x/link/int/vplConfig.ini",
+    "content": "[advanced]\nmisc=report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\nmisc=report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\nparam=compiler.enablePerformanceTrace=1\nparam=compiler.vppCurrentWorkingDir=/home/uni/project/Dess/file_sum64\nmisc=BinaryName=file_sum64\n\n[connectivity]\nnk=file_sum64:1:file_sum64_1\n\n[vivado]\nprop=run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\n\n"
+   }
+  ],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:27:18 2026",
+ "timestampMillis": "1787304438864",
+ "status": {
+  "cmdId": "f802276c-227f-49b2-825a-a0d26d91587d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Aug 21 02:27:21 2026",
+ "timestampMillis": "1787304441211",
+ "buildStep": {
+  "cmdId": "4111dd2b-56ee-49de-a363-5b2ba32afa4a",
+  "name": "vpl",
+  "logFile": "/home/uni/project/Dess/file_sum64/_x/link/link.steps.log",
+  "commandLine": "/home/dess/workspace/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/vpl -t hw -f xilinx_u2_gen3x4_xdma_gc_2_202110_1 --remote_ip_cache /home/uni/project/Dess/file_sum64/.ipcache --output_dir /home/uni/project/Dess/file_sum64/_x/link/int --log_dir /home/uni/project/Dess/file_sum64/_x/logs/link --report_dir /home/uni/project/Dess/file_sum64/_x/reports/link --config /home/uni/project/Dess/file_sum64/_x/link/int/vplConfig.ini -k /home/uni/project/Dess/file_sum64/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/uni/project/Dess/file_sum64/_x/link --no-info --iprepo /home/uni/project/Dess/file_sum64/_x/link/int/xo/ip_repo/xilinx_com_hls_file_sum64_1_0 --messageDb /home/uni/project/Dess/file_sum64/_x/link/run_link/vpl.pb /home/uni/project/Dess/file_sum64/_x/link/int/dr.bd.tcl ",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64/_x/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:27:21 2026",
+ "timestampMillis": "1787304441211",
+ "status": {
+  "cmdId": "4111dd2b-56ee-49de-a363-5b2ba32afa4a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_VivadoProject",
+ "dateTimestamp": "Fri Aug 21 02:27:29 2026",
+ "timestampMillis": "1787304449540",
+ "vivadoProject": {
+  "openDir": "/home/uni/project/Dess/file_sum64/_x/link/vivado/vpl",
+  "openScript": "openprj.tcl",
+  "relativeProject": "prj/prj.xpr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 02:27:29 2026",
+ "timestampMillis": "1787304449541",
+ "buildStep": {
+  "cmdId": "918775c5-eacf-4943-b19d-0f013e5e607c",
+  "name": "vivado",
+  "logFile": "/home/uni/project/Dess/file_sum64/_x/link/vivado/vpl/vivado.log",
+  "commandLine": "vivado -log vivado.log -applog -m64 -messageDb vivado.pb -mode batch -source vpl.tcl -notrace",
+  "args": [
+   "-log",
+   "vivado.log",
+   "-applog",
+   " -m64",
+   "-messageDb",
+   "vivado.pb",
+   "-mode",
+   "batch",
+   "-source",
+   "vpl.tcl",
+   "-notrace"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64/_x/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:27:29 2026",
+ "timestampMillis": "1787304449541",
+ "status": {
+  "cmdId": "918775c5-eacf-4943-b19d-0f013e5e607c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 02:29:09 2026",
+ "timestampMillis": "1787304549080",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/link/int/automation_summary_update_bd.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "VITIS_DESIGN_FLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Aug 21 02:32:10 2026",
+ "timestampMillis": "1787304730981",
+ "buildStep": {
+  "cmdId": "3171c46d-fcf0-4f97-8aa9-c23956985bcd",
+  "name": "vivado.impl",
+  "logFile": "",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64/_x/link/vivado/vpl"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:32:10 2026",
+ "timestampMillis": "1787304730981",
+ "status": {
+  "cmdId": "3171c46d-fcf0-4f97-8aa9-c23956985bcd",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Aug 21 02:32:10 2026",
+ "timestampMillis": "1787304730982",
+ "buildStep": {
+  "cmdId": "c5470656-7a60-417f-b2d1-2147a6c70a8a",
+  "name": "vivado.impl.impl_1",
+  "logFile": "/home/uni/project/Dess/file_sum64/_x/link/vivado/vpl/prj/prj.runs/impl_1/runme.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64/_x/link/vivado/vpl/prj/prj.runs/impl_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:32:10 2026",
+ "timestampMillis": "1787304730982",
+ "status": {
+  "cmdId": "c5470656-7a60-417f-b2d1-2147a6c70a8a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 03:51:11 2026",
+ "timestampMillis": "1787309471484",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/link/vivado/vpl/prj/prj.runs/impl_1/system_diagram.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 03:51:50 2026",
+ "timestampMillis": "1787309510746",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/link/int/kernel_service.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "KERNEL_SERVICE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 03:51:50 2026",
+ "timestampMillis": "1787309510747",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/link/int/kernel_service.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "KERNEL_SERVICE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 03:55:03 2026",
+ "timestampMillis": "1787309703142",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/link/vivado/vpl/prj/prj.runs/impl_1/dr_timing_summary.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY_FAIL",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144700",
+ "status": {
+  "cmdId": "918775c5-eacf-4943-b19d-0f013e5e607c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144761",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_slr_util_placed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SLR_UTIL_PLACED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144762",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_slr_util_routed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_SLR_UTIL_ROUTED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144763",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_full_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144763",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_kernel_util_routed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144763",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_kernel_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144764",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_slr_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SLR_UTIL_ROUTED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144764",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_kernel_util_placed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_PLACEMENT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144765",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_kernel_util_synthed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144765",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_full_util_synthed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144765",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_kernel_util_placed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_PLACEMENT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144766",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_kernel_util_synthed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144766",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_full_util_routed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144766",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_slr_util_placed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_SLR_UTIL_PLACED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144767",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_full_util_synthed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144768",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_system_diagram.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS",
+  "cmdId": "c5470656-7a60-417f-b2d1-2147a6c70a8a"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144784",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY",
+  "cmdId": "c5470656-7a60-417f-b2d1-2147a6c70a8a"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144801",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpx",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY",
+  "cmdId": "c5470656-7a60-417f-b2d1-2147a6c70a8a"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:24 2026",
+ "timestampMillis": "1787310144802",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpv",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY_CONCISE",
+  "cmdId": "c5470656-7a60-417f-b2d1-2147a6c70a8a"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:25 2026",
+ "timestampMillis": "1787310145151",
+ "status": {
+  "cmdId": "4111dd2b-56ee-49de-a363-5b2ba32afa4a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:25 2026",
+ "timestampMillis": "1787310145172",
+ "status": {
+  "cmdId": "f802276c-227f-49b2-825a-a0d26d91587d",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 04:02:25 2026",
+ "timestampMillis": "1787310145173",
+ "buildStep": {
+  "cmdId": "dd9e75c4-2782-42cf-b9ac-0fd1f2883870",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "rtdgen",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:25 2026",
+ "timestampMillis": "1787310145174",
+ "status": {
+  "cmdId": "dd9e75c4-2782-42cf-b9ac-0fd1f2883870",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:25 2026",
+ "timestampMillis": "1787310145175",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64_xml.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "XCLBIN_INFO",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 04:02:25 2026",
+ "timestampMillis": "1787310145176",
+ "buildStep": {
+  "cmdId": "89b17f13-536e-44f5-9697-880d2afb0345",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -a /home/uni/project/Dess/file_sum64/_x/link/int/address_map.xml -sdsl /home/uni/project/Dess/file_sum64/_x/link/int/sdsl.dat -xclbin /home/uni/project/Dess/file_sum64/_x/link/int/xclbin_orig.xml -rtd /home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.rtd -o /home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.xml",
+  "args": [
+   "-a",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/address_map.xml",
+   "-sdsl",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/sdsl.dat",
+   "-xclbin",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/xclbin_orig.xml",
+   "-rtd",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.rtd",
+   "-o",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:25 2026",
+ "timestampMillis": "1787310145177",
+ "status": {
+  "cmdId": "89b17f13-536e-44f5-9697-880d2afb0345",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149842",
+ "status": {
+  "cmdId": "89b17f13-536e-44f5-9697-880d2afb0345",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149843",
+ "buildStep": {
+  "cmdId": "0542fc38-38a9-44a4-8331-04d5fada8edd",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "writeSystemDiagram",
+  "args": [
+   "/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.rtd",
+   "/home/uni/project/Dess/file_sum64/_x/link/int/systemDiagramModelSlrBaseAddress.json"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149843",
+ "status": {
+  "cmdId": "0542fc38-38a9-44a4-8331-04d5fada8edd",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149845",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/link/int/systemDiagramModelSlrBaseAddress.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149846",
+ "status": {
+  "cmdId": "0542fc38-38a9-44a4-8331-04d5fada8edd",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149846",
+ "buildStep": {
+  "cmdId": "4c6ba17c-de86-45ed-b5fa-4d28936c5365",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "writeAutomationSummary",
+  "args": [
+   "/home/uni/project/Dess/file_sum64/_x/link/int/automation_summary.txt"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149846",
+ "status": {
+  "cmdId": "4c6ba17c-de86-45ed-b5fa-4d28936c5365",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149847",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/link/int/automation_summary.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "VITIS_DESIGN_FLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149847",
+ "status": {
+  "cmdId": "4c6ba17c-de86-45ed-b5fa-4d28936c5365",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149847",
+ "status": {
+  "cmdId": "dd9e75c4-2782-42cf-b9ac-0fd1f2883870",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149849",
+ "buildStep": {
+  "cmdId": "a003ab32-f655-4b99-ab79-7c635897e50a",
+  "name": "xclbinutil",
+  "logFile": "",
+  "commandLine": "xclbinutil --add-section BITSTREAM:RAW:/home/uni/project/Dess/file_sum64/_x/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.rtd --append-section :JSON:/home/uni/project/Dess/file_sum64/_x/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64_xml.rtd --add-section BUILD_METADATA:JSON:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64_build.rtd --add-section EMBEDDED_METADATA:RAW:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.xml --add-section SYSTEM_METADATA:RAW:/home/uni/project/Dess/file_sum64/_x/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u2_gen3x4_xdma_gc_2_202110_1 --output /home/uni/project/Dess/file_sum64/build/file_sum64.xclbin",
+  "args": [
+   "--add-section",
+   "BITSTREAM:RAW:/home/uni/project/Dess/file_sum64/_x/link/int/partial.bit",
+   "--force",
+   "--target",
+   "hw",
+   "--key-value",
+   "SYS:dfx_enable:true",
+   "--add-section",
+   ":JSON:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.rtd",
+   "--append-section",
+   ":JSON:/home/uni/project/Dess/file_sum64/_x/link/int/appendSection.rtd",
+   "--add-section",
+   "CLOCK_FREQ_TOPOLOGY:JSON:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64_xml.rtd",
+   "--add-section",
+   "BUILD_METADATA:JSON:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64_build.rtd",
+   "--add-section",
+   "EMBEDDED_METADATA:RAW:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.xml",
+   "--add-section",
+   "SYSTEM_METADATA:RAW:/home/uni/project/Dess/file_sum64/_x/link/int/systemDiagramModelSlrBaseAddress.json",
+   "--key-value",
+   "SYS:PlatformVBNV:xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+   "--output",
+   "/home/uni/project/Dess/file_sum64/build/file_sum64.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:29 2026",
+ "timestampMillis": "1787310149849",
+ "status": {
+  "cmdId": "a003ab32-f655-4b99-ab79-7c635897e50a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150047",
+ "status": {
+  "cmdId": "a003ab32-f655-4b99-ab79-7c635897e50a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150049",
+ "buildStep": {
+  "cmdId": "8c8b0a7d-2485-4cd4-9215-9a91756a7477",
+  "name": "xclbinutilinfo",
+  "logFile": "",
+  "commandLine": "xclbinutil --quiet --force --info /home/uni/project/Dess/file_sum64/build/file_sum64.xclbin.info --input /home/uni/project/Dess/file_sum64/build/file_sum64.xclbin",
+  "args": [
+   "--quiet",
+   "--force",
+   "--info",
+   "/home/uni/project/Dess/file_sum64/build/file_sum64.xclbin.info",
+   "--input",
+   "/home/uni/project/Dess/file_sum64/build/file_sum64.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150049",
+ "status": {
+  "cmdId": "8c8b0a7d-2485-4cd4-9215-9a91756a7477",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150455",
+ "status": {
+  "cmdId": "8c8b0a7d-2485-4cd4-9215-9a91756a7477",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150456",
+ "buildStep": {
+  "cmdId": "23dd36df-c719-4099-8ac5-4280010d6d46",
+  "name": "generate_sc_driver",
+  "logFile": "",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150457",
+ "status": {
+  "cmdId": "23dd36df-c719-4099-8ac5-4280010d6d46",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150457",
+ "status": {
+  "cmdId": "23dd36df-c719-4099-8ac5-4280010d6d46",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150462",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/system_estimate_file_sum64.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150682",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/logs/optraceViewer.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "OPERATION_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150683",
+ "status": {
+  "cmdId": "cef819f9-554f-4000-8232-9912c406b967",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150778",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/link/v++_link_file_sum64_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 04:02:30 2026",
+ "timestampMillis": "1787310150779",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/v++_link_file_sum64_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

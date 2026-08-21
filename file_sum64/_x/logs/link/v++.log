@@ -1,0 +1,278 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /home/uni/project/Dess/file_sum64/_x/reports/link
+	Log files: /home/uni/project/Dess/file_sum64/_x/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/uni/project/Dess/file_sum64/build/file_sum64.xclbin.link_summary, at Fri Aug 21 02:26:44 2026
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/uni/project/Dess/file_sum64/_x/reports/link/v++_link_file_sum64_guidance.html', at Fri Aug 21 02:26:44 2026
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.2
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u2_gen3x4_xdma_gc_2_202110_1
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [02:26:50] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /home/uni/project/Dess/file_sum64/build/file_sum64.xo --xpfm /opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm --target hw --output_dir /home/uni/project/Dess/file_sum64/_x/link/int --temp_dir /home/uni/project/Dess/file_sum64/_x/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /home/uni/project/Dess/file_sum64/_x/link/run_link
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /home/uni/project/Dess/file_sum64/build/file_sum64.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /home/uni/project/Dess/file_sum64/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [02:26:53] build_xd_ip_db started: /home/dess/workspace/Xilinx/Vitis/2022.2/bin/build_xd_ip_db -ip_search 0  -sds-pf /home/uni/project/Dess/file_sum64/_x/link/sys_link/hw.hpfm -clkid 0 -ip /home/uni/project/Dess/file_sum64/_x/link/sys_link/iprepo/xilinx_com_hls_file_sum64_1_0,file_sum64 -o /home/uni/project/Dess/file_sum64/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-37] [02:27:03] build_xd_ip_db finished successfully
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 432.242 ; gain = 0.000 ; free physical = 120286 ; free virtual = 248151
+INFO: [SYSTEM_LINK 82-51] Create system connectivity graph
+INFO: [SYSTEM_LINK 82-102] Applying explicit connections to the system connectivity graph: /home/uni/project/Dess/file_sum64/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [SYSTEM_LINK 82-38] [02:27:03] cfgen started: /home/dess/workspace/Xilinx/Vitis/2022.2/bin/cfgen  -dpa_mem_offload false -dmclkid 0 -r /home/uni/project/Dess/file_sum64/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o /home/uni/project/Dess/file_sum64/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml
+INFO: [CFGEN 83-0] Kernel Specs: 
+INFO: [CFGEN 83-0]   kernel: file_sum64, num: 1  {file_sum64_1}
+INFO: [CFGEN 83-2226] Inferring mapping for argument file_sum64_1.file_data to bank0
+INFO: [CFGEN 83-2226] Inferring mapping for argument file_sum64_1.sum_out to bank0
+INFO: [SYSTEM_LINK 82-37] [02:27:08] cfgen finished successfully
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 432.242 ; gain = 0.000 ; free physical = 120259 ; free virtual = 248143
+INFO: [SYSTEM_LINK 82-52] Create top-level block diagram
+INFO: [SYSTEM_LINK 82-38] [02:27:08] cf2bd started: /home/dess/workspace/Xilinx/Vitis/2022.2/bin/cf2bd  --linux --trace_buffer 1024 --input_file /home/uni/project/Dess/file_sum64/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml --ip_db /home/uni/project/Dess/file_sum64/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml --cf_name dr --working_dir /home/uni/project/Dess/file_sum64/_x/link/sys_link/_sysl/.xsd --temp_dir /home/uni/project/Dess/file_sum64/_x/link/sys_link --output_dir /home/uni/project/Dess/file_sum64/_x/link/int --target_bd ulp.bd
+INFO: [CF2BD 82-31] Launching cf2xd: cf2xd -linux -trace-buffer 1024 -i /home/uni/project/Dess/file_sum64/_x/link/sys_link/cfgraph/cfgen_cfgraph.xml -r /home/uni/project/Dess/file_sum64/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml -o dr.xml
+INFO: [CF2BD 82-28] cf2xd finished successfully
+INFO: [CF2BD 82-31] Launching cf_xsd: cf_xsd -disable-address-gen -bd ulp.bd -dn dr -dp /home/uni/project/Dess/file_sum64/_x/link/sys_link/_sysl/.xsd
+INFO: [CF2BD 82-28] cf_xsd finished successfully
+INFO: [SYSTEM_LINK 82-37] [02:27:13] cf2bd finished successfully
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 432.242 ; gain = 0.000 ; free physical = 120256 ; free virtual = 248144
+INFO: [v++ 60-1441] [02:27:13] Run run_link: Step system_link: Completed
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 438.160 ; gain = 0.000 ; free physical = 120317 ; free virtual = 248200
+INFO: [v++ 60-1443] [02:27:13] Run run_link: Step cf2sw: Started
+INFO: [v++ 60-1453] Command Line: cf2sw -sdsl /home/uni/project/Dess/file_sum64/_x/link/int/sdsl.dat -rtd /home/uni/project/Dess/file_sum64/_x/link/int/cf2sw.rtd -nofilter /home/uni/project/Dess/file_sum64/_x/link/int/cf2sw_full.rtd -xclbin /home/uni/project/Dess/file_sum64/_x/link/int/xclbin_orig.xml -o /home/uni/project/Dess/file_sum64/_x/link/int/xclbin_orig.1.xml
+INFO: [v++ 60-1454] Run Directory: /home/uni/project/Dess/file_sum64/_x/link/run_link
+INFO: [v++ 60-1441] [02:27:18] Run run_link: Step cf2sw: Completed
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 438.160 ; gain = 0.000 ; free physical = 120316 ; free virtual = 248200
+INFO: [v++ 60-1443] [02:27:18] Run run_link: Step rtd2_system_diagram: Started
+INFO: [v++ 60-1453] Command Line: rtd2SystemDiagram
+INFO: [v++ 60-1454] Run Directory: /home/uni/project/Dess/file_sum64/_x/link/run_link
+INFO: [v++ 60-1441] [02:27:18] Run run_link: Step rtd2_system_diagram: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.34 . Memory (MB): peak = 438.160 ; gain = 0.000 ; free physical = 120317 ; free virtual = 248201
+INFO: [v++ 60-1443] [02:27:18] Run run_link: Step vpl: Started
+INFO: [v++ 60-1453] Command Line: vpl -t hw -f xilinx_u2_gen3x4_xdma_gc_2_202110_1 --remote_ip_cache /home/uni/project/Dess/file_sum64/.ipcache --output_dir /home/uni/project/Dess/file_sum64/_x/link/int --log_dir /home/uni/project/Dess/file_sum64/_x/logs/link --report_dir /home/uni/project/Dess/file_sum64/_x/reports/link --config /home/uni/project/Dess/file_sum64/_x/link/int/vplConfig.ini -k /home/uni/project/Dess/file_sum64/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/uni/project/Dess/file_sum64/_x/link --no-info --iprepo /home/uni/project/Dess/file_sum64/_x/link/int/xo/ip_repo/xilinx_com_hls_file_sum64_1_0 --messageDb /home/uni/project/Dess/file_sum64/_x/link/run_link/vpl.pb /home/uni/project/Dess/file_sum64/_x/link/int/dr.bd.tcl
+INFO: [v++ 60-1454] Run Directory: /home/uni/project/Dess/file_sum64/_x/link/run_link
+
+****** vpl v2022.2.2 (64-bit)
+  **** SW Build 3716524 on 2023-02-17-15:43:22
+    ** Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+
+INFO: [VPL 60-839] Read in kernel information from file '/home/uni/project/Dess/file_sum64/_x/link/int/kernel_info.dat'.
+INFO: [VPL 74-78] Compiler Version string: 2022.2
+INFO: [VPL 60-423]   Target device: xilinx_u2_gen3x4_xdma_gc_2_202110_1
+INFO: [VPL 60-1032] Extracting hardware platform to /home/uni/project/Dess/file_sum64/_x/link/vivado/vpl/.local/hw_platform
+[02:27:41] Run vpl: Step create_project: Started
+Creating Vivado project.
+[02:27:49] Run vpl: Step create_project: Completed
+[02:27:49] Run vpl: Step create_bd: Started
+[02:29:05] Run vpl: Step create_bd: RUNNING...
+[02:29:08] Run vpl: Step create_bd: Completed
+[02:29:08] Run vpl: Step update_bd: Started
+[02:29:09] Run vpl: Step update_bd: Completed
+[02:29:09] Run vpl: Step generate_target: Started
+[02:30:05] Run vpl: Step generate_target: Completed
+[02:30:05] Run vpl: Step config_hw_runs: Started
+[02:30:10] Run vpl: Step config_hw_runs: Completed
+[02:30:10] Run vpl: Step synth: Started
+[02:30:41] Block-level synthesis in progress, 0 of 1 jobs complete, 1 job running.
+[02:31:12] Block-level synthesis in progress, 0 of 1 jobs complete, 1 job running.
+[02:31:42] Block-level synthesis in progress, 0 of 1 jobs complete, 1 job running.
+[02:32:10] Run vpl: Step synth: Completed
+[02:32:10] Run vpl: Step impl: Started
+[02:40:44] Finished 2nd of 6 tasks (FPGA linking synthesized kernels to platform). Elapsed time: 00h 13m 22s 
+
+[02:40:44] Starting logic optimization..
+[02:41:44] Phase 1 Generate And Synthesize MIG Cores
+[02:46:15] Phase 2 Generate And Synthesize Debug Cores
+[02:48:16] Phase 3 Retarget
+[02:48:16] Phase 4 Constant propagation
+[02:48:46] Phase 5 Sweep
+[02:49:16] Phase 6 BUFG optimization
+[02:49:46] Phase 7 Shift Register Optimization
+[02:49:46] Phase 8 Post Processing Netlist
+[02:51:17] Finished 3rd of 6 tasks (FPGA logic optimization). Elapsed time: 00h 10m 33s 
+
+[02:51:17] Starting logic placement..
+[02:51:17] Phase 1 Placer Initialization
+[02:51:17] Phase 1.1 Placer Initialization Netlist Sorting
+[02:52:47] Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+[02:53:48] Phase 1.3 Build Placer Netlist Model
+[02:56:18] Phase 1.4 Constrain Clocks/Macros
+[02:56:49] Phase 2 Global Placement
+[02:56:49] Phase 2.1 Floorplanning
+[02:57:19] Phase 2.1.1 Partition Driven Placement
+[02:57:19] Phase 2.1.1.1 PBP: Partition Driven Placement
+[02:57:49] Phase 2.1.1.2 PBP: Clock Region Placement
+[02:58:19] Phase 2.1.1.3 PBP: Compute Congestion
+[02:58:19] Phase 2.1.1.4 PBP: UpdateTiming
+[02:58:19] Phase 2.1.1.5 PBP: Add part constraints
+[02:58:49] Phase 2.2 Update Timing before SLR Path Opt
+[02:58:49] Phase 2.3 Post-Processing in Floorplanning
+[02:58:49] Phase 2.4 Global Placement Core
+[03:03:51] Phase 2.4.1 UpdateTiming Before Physical Synthesis
+[03:04:22] Phase 2.4.2 Physical Synthesis In Placer
+[03:05:52] Phase 3 Detail Placement
+[03:05:52] Phase 3.1 Commit Multi Column Macros
+[03:05:52] Phase 3.2 Commit Most Macros & LUTRAMs
+[03:06:23] Phase 3.3 Small Shape DP
+[03:06:23] Phase 3.3.1 Small Shape Clustering
+[03:06:53] Phase 3.3.2 Flow Legalize Slice Clusters
+[03:06:53] Phase 3.3.3 Slice Area Swap
+[03:06:53] Phase 3.3.3.1 Slice Area Swap Initial
+[03:07:23] Phase 3.4 Place Remaining
+[03:07:23] Phase 3.5 Re-assign LUT pins
+[03:07:53] Phase 3.6 Pipeline Register Optimization
+[03:07:53] Phase 3.7 Fast Optimization
+[03:08:23] Phase 4 Post Placement Optimization and Clean-Up
+[03:08:23] Phase 4.1 Post Commit Optimization
+[03:09:54] Phase 4.1.1 Post Placement Optimization
+[03:09:54] Phase 4.1.1.1 BUFG Insertion
+[03:09:54] Phase 1 Physical Synthesis Initialization
+[03:10:24] Phase 4.1.1.2 Post Placement Timing Optimization
+[03:15:56] Phase 4.2 Post Placement Cleanup
+[03:15:56] Phase 4.3 Placer Reporting
+[03:15:56] Phase 4.3.1 Print Estimated Congestion
+[03:16:27] Phase 4.4 Final Placement Cleanup
+[03:21:59] Finished 4th of 6 tasks (FPGA logic placement). Elapsed time: 00h 30m 42s 
+
+[03:21:59] Starting logic routing..
+[03:22:29] Phase 1 Build RT Design
+[03:24:30] Phase 2 Router Initialization
+[03:24:30] Phase 2.1 Fix Topology Constraints
+[03:24:30] Phase 2.2 Pre Route Cleanup
+[03:25:00] Phase 2.3 Global Clock Net Routing
+[03:25:30] Phase 2.4 Update Timing
+[03:27:01] Phase 2.5 Update Timing for Bus Skew
+[03:27:01] Phase 2.5.1 Update Timing
+[03:28:01] Phase 3 Initial Routing
+[03:28:01] Phase 3.1 Global Routing
+[03:29:02] Phase 4 Rip-up And Reroute
+[03:29:02] Phase 4.1 Global Iteration 0
+[03:33:04] Phase 4.2 Global Iteration 1
+[03:34:34] Phase 4.3 Global Iteration 2
+[03:35:35] Phase 5 Delay and Skew Optimization
+[03:35:35] Phase 5.1 Delay CleanUp
+[03:35:35] Phase 5.1.1 Update Timing
+[03:36:35] Phase 5.1.2 Update Timing
+[03:37:05] Phase 5.1.3 Update Timing
+[03:37:35] Phase 5.2 Clock Skew Optimization
+[03:37:35] Phase 6 Post Hold Fix
+[03:37:35] Phase 6.1 Hold Fix Iter
+[03:37:35] Phase 6.1.1 Update Timing
+[03:38:36] Phase 6.1.2 Lut RouteThru Assignment for hold
+[03:39:06] Phase 7 Leaf Clock Prog Delay Opt
+[03:41:07] Phase 7.1 Delay CleanUp
+[03:41:07] Phase 7.1.1 Update Timing
+[03:41:37] Phase 7.1.2 Update Timing
+[03:42:38] Phase 7.1.3 Update Timing
+[03:43:08] Phase 7.2 Hold Fix Iter
+[03:43:08] Phase 7.2.1 Update Timing
+[03:44:08] Phase 7.2.2 Lut RouteThru Assignment for hold
+[03:44:08] Phase 7.3 Additional Hold Fix
+[03:45:39] Phase 7.4 Global Iteration for Hold
+[03:45:39] Phase 7.4.1 Update Timing
+[03:47:09] Phase 8 Route finalize
+[03:47:09] Phase 9 Verifying routed nets
+[03:47:09] Phase 10 Depositing Routes
+[03:48:10] Phase 11 Resolve XTalk
+[03:48:10] Phase 12 Post Router Timing
+[03:49:10] Phase 13 Physical Synthesis in Router
+[03:49:10] Phase 13.1 Physical Synthesis Initialization
+[03:49:40] Phase 13.2 Critical Path Optimization
+[03:50:11] Finished 5th of 6 tasks (FPGA routing). Elapsed time: 00h 28m 11s 
+
+[03:50:11] Starting bitstream generation..
+[03:58:14] Creating bitmap...
+[04:02:16] Writing bitstream ./level0_i_ulp_my_rm_partial.bit...
+[04:02:16] Finished 6th of 6 tasks (FPGA bitstream generation). Elapsed time: 00h 12m 05s 
+Check VPL, containing 1 checks, has run: 0 errors
+[04:02:24] Run vpl: Step impl: Completed
+[04:02:24] Run vpl: FINISHED. Run Status: impl Complete!
+INFO: [v++ 60-1441] [04:02:25] Run run_link: Step vpl: Completed
+Time (s): cpu = 00:00:37 ; elapsed = 01:35:06 . Memory (MB): peak = 438.160 ; gain = 0.000 ; free physical = 117342 ; free virtual = 245756
+INFO: [v++ 60-1443] [04:02:25] Run run_link: Step rtdgen: Started
+INFO: [v++ 60-1453] Command Line: rtdgen
+INFO: [v++ 60-1454] Run Directory: /home/uni/project/Dess/file_sum64/_x/link/run_link
+INFO: [v++ 60-991] clock name 'blp_s_aclk_kernel_ref_clk_00' (clock ID '0') is being mapped to clock name 'DATA_CLK' in the xclbin
+INFO: [v++ 60-991] clock name 'blp_s_aclk_kernel2_ref_clk_00' (clock ID '1') is being mapped to clock name 'KERNEL_CLK' in the xclbin
+INFO: [v++ 60-1230] The compiler selected the following frequencies for the runtime controllable kernel clock(s) and scalable system clock(s): Kernel (DATA) clock: blp_s_aclk_kernel_ref_clk_00 = 297, Kernel (KERNEL) clock: blp_s_aclk_kernel2_ref_clk_00 = 500
+INFO: [v++ 60-1453] Command Line: cf2sw -a /home/uni/project/Dess/file_sum64/_x/link/int/address_map.xml -sdsl /home/uni/project/Dess/file_sum64/_x/link/int/sdsl.dat -xclbin /home/uni/project/Dess/file_sum64/_x/link/int/xclbin_orig.xml -rtd /home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.rtd -o /home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.xml
+INFO: [v++ 60-1652] Cf2sw returned exit code: 0
+INFO: [v++ 60-1441] [04:02:29] Run run_link: Step rtdgen: Completed
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 438.160 ; gain = 0.000 ; free physical = 119753 ; free virtual = 248167
+INFO: [v++ 60-1443] [04:02:29] Run run_link: Step xclbinutil: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --add-section BITSTREAM:RAW:/home/uni/project/Dess/file_sum64/_x/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.rtd --append-section :JSON:/home/uni/project/Dess/file_sum64/_x/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64_xml.rtd --add-section BUILD_METADATA:JSON:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64_build.rtd --add-section EMBEDDED_METADATA:RAW:/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.xml --add-section SYSTEM_METADATA:RAW:/home/uni/project/Dess/file_sum64/_x/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u2_gen3x4_xdma_gc_2_202110_1 --output /home/uni/project/Dess/file_sum64/build/file_sum64.xclbin
+INFO: [v++ 60-1454] Run Directory: /home/uni/project/Dess/file_sum64/_x/link/run_link
+XRT Build Version: 2.14.354 (2022.2)
+       Build Date: 2022-10-08 09:49:58
+          Hash ID: 43926231f7183688add2dccfd391b36a1f000bea
+Creating a default 'in-memory' xclbin image.
+
+Section: 'BITSTREAM'(0) was successfully added.
+Size   : 19526874 bytes
+Format : RAW
+File   : '/home/uni/project/Dess/file_sum64/_x/link/int/partial.bit'
+
+Section: 'MEM_TOPOLOGY'(6) was successfully added.
+Format : JSON
+File   : 'mem_topology'
+
+Section: 'IP_LAYOUT'(8) was successfully added.
+Format : JSON
+File   : 'ip_layout'
+
+Section: 'CONNECTIVITY'(7) was successfully added.
+Format : JSON
+File   : 'connectivity'
+
+Section: 'CLOCK_FREQ_TOPOLOGY'(11) was successfully added.
+Size   : 274 bytes
+Format : JSON
+File   : '/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64_xml.rtd'
+
+Section: 'BUILD_METADATA'(14) was successfully added.
+Size   : 2031 bytes
+Format : JSON
+File   : '/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64_build.rtd'
+
+Section: 'EMBEDDED_METADATA'(2) was successfully added.
+Size   : 3698 bytes
+Format : RAW
+File   : '/home/uni/project/Dess/file_sum64/_x/link/int/file_sum64.xml'
+
+Section: 'SYSTEM_METADATA'(22) was successfully added.
+Size   : 9646 bytes
+Format : RAW
+File   : '/home/uni/project/Dess/file_sum64/_x/link/int/systemDiagramModelSlrBaseAddress.json'
+
+Section: 'PARTITION_METADATA'(20) was successfully appended to.
+Format : JSON
+File   : 'partition_metadata'
+
+Section: 'IP_LAYOUT'(8) was successfully appended to.
+Format : JSON
+File   : 'ip_layout'
+Successfully wrote (19550407 bytes) to the output file: /home/uni/project/Dess/file_sum64/build/file_sum64.xclbin
+Leaving xclbinutil.
+INFO: [v++ 60-1441] [04:02:30] Run run_link: Step xclbinutil: Completed
+Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.2 . Memory (MB): peak = 438.160 ; gain = 0.000 ; free physical = 119729 ; free virtual = 248162
+INFO: [v++ 60-1443] [04:02:30] Run run_link: Step xclbinutilinfo: Started
+INFO: [v++ 60-1453] Command Line: xclbinutil --quiet --force --info /home/uni/project/Dess/file_sum64/build/file_sum64.xclbin.info --input /home/uni/project/Dess/file_sum64/build/file_sum64.xclbin
+INFO: [v++ 60-1454] Run Directory: /home/uni/project/Dess/file_sum64/_x/link/run_link
+INFO: [v++ 60-1441] [04:02:30] Run run_link: Step xclbinutilinfo: Completed
+Time (s): cpu = 00:00:00.34 ; elapsed = 00:00:00.41 . Memory (MB): peak = 438.160 ; gain = 0.000 ; free physical = 119732 ; free virtual = 248165
+INFO: [v++ 60-1443] [04:02:30] Run run_link: Step generate_sc_driver: Started
+INFO: [v++ 60-1453] Command Line: 
+INFO: [v++ 60-1454] Run Directory: /home/uni/project/Dess/file_sum64/_x/link/run_link
+INFO: [v++ 60-1441] [04:02:30] Run run_link: Step generate_sc_driver: Completed
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 438.160 ; gain = 0.000 ; free physical = 119732 ; free virtual = 248165
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /home/uni/project/Dess/file_sum64/_x/reports/link/system_estimate_file_sum64.xtxt
+INFO: [v++ 60-586] Created /home/uni/project/Dess/file_sum64/build/file_sum64.ltx
+INFO: [v++ 60-586] Created build/file_sum64.xclbin
+INFO: [v++ 60-1307] Run completed. Additional information can be found in:
+	Guidance: /home/uni/project/Dess/file_sum64/_x/reports/link/v++_link_file_sum64_guidance.html
+	Timing Report: /home/uni/project/Dess/file_sum64/_x/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpt
+	Vivado Log: /home/uni/project/Dess/file_sum64/_x/logs/link/vivado.log
+	Steps Log File: /home/uni/project/Dess/file_sum64/_x/logs/link/link.steps.log
+
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/uni/project/Dess/file_sum64/build/file_sum64.xclbin.link_summary 
+INFO: [v++ 60-791] Total elapsed time: 1h 35m 56s

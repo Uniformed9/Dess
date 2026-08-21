@@ -195,3 +195,26 @@ Fri Aug 21 02:26:44 2026: SESSION_MGR: creating session with session uuid: 'b577
 Fri Aug 21 02:26:44 2026: KERNEL_SVC: creating session with uuid: 'b5774e23-ee33-4259-9554-2758e01b28b2' and name 'v++_link_file_sum64'
 Fri Aug 21 02:26:44 2026: GUIDANCE_SMGR: creating guidance session with uuid: 'b5774e23-ee33-4259-9554-2758e01b28b2' and name 'v++_link_file_sum64'
 Fri Aug 21 02:26:44 2026: SYSTEM_DIAGRAM: creating session with uuid: 'b5774e23-ee33-4259-9554-2758e01b28b2' and name 'v++_link_file_sum64'
+Fri Aug 21 02:27:21 2026: Dispatch Server: Accepted socket connection from client
+Fri Aug 21 02:27:21 2026: Starting Socket connection
+Fri Aug 21 02:27:41 2026: Dispatch Server: Accepted socket connection from client
+Fri Aug 21 02:27:41 2026: Starting Socket connection
+Fri Aug 21 02:30:25 2026: Dispatch Server: Accepted socket connection from client
+Fri Aug 21 02:30:25 2026: Starting Socket connection
+Fri Aug 21 02:32:25 2026: Dispatch Server: Accepted socket connection from client
+Fri Aug 21 02:32:25 2026: Starting Socket connection
+Fri Aug 21 04:02:30 2026: SESSION_MGR: closing session for UUID 'b5774e23-ee33-4259-9554-2758e01b28b2' with name 'v++_link_file_sum64'
+Fri Aug 21 04:02:30 2026: KERNEL_SVC: closing session for UUID 'b5774e23-ee33-4259-9554-2758e01b28b2' with name 'v++_link_file_sum64'
+Fri Aug 21 04:02:30 2026: GUIDANCE_SMGR: closing session for UUID 'b5774e23-ee33-4259-9554-2758e01b28b2' with name 'v++_link_file_sum64'
+Fri Aug 21 04:02:30 2026: SYSTEM_DIAGRAM: closing session for UUID 'b5774e23-ee33-4259-9554-2758e01b28b2' with name 'v++_link_file_sum64'
+Fri Aug 21 04:02:30 2026: STOP_SERVER received, server token: 182d98f8-f49f-4a5c-9d9c-eb3ce10a9175, passed token: 182d98f8-f49f-4a5c-9d9c-eb3ce10a9175
+Fri Aug 21 04:02:30 2026: Socket received request to stop server.
+Fri Aug 21 04:02:30 2026: Dispatch Server: do_await_stop
+Fri Aug 21 04:02:30 2026: Dispatch Server: stopping mainFifo_
+Fri Aug 21 04:02:30 2026: XCD main fifo: Stopping
+Fri Aug 21 04:02:30 2026: XCD main fifo: do_read error code: Operation canceled
+Fri Aug 21 04:02:30 2026: XCD main fifo: bytes_transferred: 0
+Fri Aug 21 04:02:30 2026: SERVER: destructor for server bound to port 46815
+Fri Aug 21 04:02:30 2026: XCD main fifo: Good unlink of /tmp/xcdmain182d98f8-f49f-4a5c-9d9c-eb3ce10a9175
+Fri Aug 21 04:02:30 2026: Server exiting with status 0.
+Fri Aug 21 04:02:30 2026: Closing log file.
