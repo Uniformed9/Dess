@@ -1,0 +1,237 @@
+<ENTRY>
+{
+ "thisFile": "/home/uni/project/Dess/file_sum64/build/file_sum64.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Aug 21 01:03:12 2026",
+ "timestampMillis": "1787299392559",
+ "buildStep": {
+  "cmdId": "4c008ec8-f5ff-440a-bac0-52b82fddb984",
+  "name": "v++",
+  "logFile": "/home/uni/project/Dess/file_sum64/_x/file_sum64/file_sum64.steps.log",
+  "commandLine": "/home/dess/workspace/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c -t hw --platform xilinx_u2_gen3x4_xdma_gc_2_202110_1 -k file_sum64 --hls.clock 300000000:file_sum64 -o build/file_sum64.xo src/file_sum64.cpp ",
+  "args": [
+   "-c",
+   "-t",
+   "hw",
+   "--platform",
+   "xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+   "-k",
+   "file_sum64",
+   "--hls.clock",
+   "300000000:file_sum64",
+   "-o",
+   "build/file_sum64.xo",
+   "src/file_sum64.cpp"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 01:03:12 2026",
+ "timestampMillis": "1787299392559",
+ "status": {
+  "cmdId": "4c008ec8-f5ff-440a-bac0-52b82fddb984",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Fri Aug 21 01:03:19 2026",
+ "timestampMillis": "1787299399558",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm",
+  "hardwareDsa": "hw.xsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "file_sum64",
+     "file": "/home/uni/project/Dess/file_sum64/build/file_sum64.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/uni/project/Dess/file_sum64/src/file_sum64.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.2.2. SW Build 3716524 on 2023-02-17-15:43:22"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 01:03:19 2026",
+ "timestampMillis": "1787299399561",
+ "buildStep": {
+  "cmdId": "dee09d87-8037-4ee2-964d-b754ac55a73c",
+  "name": "vitis_hls",
+  "logFile": "/home/uni/project/Dess/file_sum64/_x/file_sum64/file_sum64/vitis_hls.log",
+  "commandLine": "vitis_hls -f /home/uni/project/Dess/file_sum64/_x/file_sum64/file_sum64/file_sum64.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/home/uni/project/Dess/file_sum64/_x/file_sum64/file_sum64/file_sum64.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 01:03:19 2026",
+ "timestampMillis": "1787299399561",
+ "status": {
+  "cmdId": "dee09d87-8037-4ee2-964d-b754ac55a73c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 01:04:00 2026",
+ "timestampMillis": "1787299440269",
+ "status": {
+  "cmdId": "dee09d87-8037-4ee2-964d-b754ac55a73c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 01:04:00 2026",
+ "timestampMillis": "1787299440280",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/file_sum64/file_sum64/file_sum64/solution/.autopilot/db/file_sum64.design.xml",
+  "name": "file_sum64",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_REPORT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 01:04:00 2026",
+ "timestampMillis": "1787299440280",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/file_sum64/file_sum64/file_sum64/solution/.autopilot/db/.message_syn.xml",
+  "name": "file_sum64",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_DRC_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 01:04:00 2026",
+ "timestampMillis": "1787299440281",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/file_sum64/hls_reports/file_sum64_csynth.rpt",
+  "name": "file_sum64",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 01:04:00 2026",
+ "timestampMillis": "1787299440281",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/file_sum64/file_sum64/file_sum64/solution/syn/report/file_sum64_csynth.xml",
+  "name": "file_sum64",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 01:04:00 2026",
+ "timestampMillis": "1787299440286",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/file_sum64/system_estimate_file_sum64.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 01:04:00 2026",
+ "timestampMillis": "1787299440374",
+ "status": {
+  "cmdId": "4c008ec8-f5ff-440a-bac0-52b82fddb984",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 01:04:00 2026",
+ "timestampMillis": "1787299440469",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/reports/file_sum64/v++_compile_file_sum64_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Fri Aug 21 01:04:00 2026",
+ "timestampMillis": "1787299440470",
+ "report": {
+  "path": "/home/uni/project/Dess/file_sum64/_x/v++_compile_file_sum64_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

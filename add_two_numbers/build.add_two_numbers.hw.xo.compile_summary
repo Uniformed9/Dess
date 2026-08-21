@@ -1,0 +1,237 @@
+<ENTRY>
+{
+ "thisFile": "/home/uni/project/smartssd/add_two_numbers/build.add_two_numbers.hw.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Aug 18 00:49:32 2026",
+ "timestampMillis": "1787039372660",
+ "buildStep": {
+  "cmdId": "048e969e-5b85-4228-9ff1-d2b8b74fa8ee",
+  "name": "v++",
+  "logFile": "/home/uni/project/smartssd/add_two_numbers/_x/build.add_two_numbers.hw/build.add_two_numbers.hw.steps.log",
+  "commandLine": "/home/dess/workspace/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c -t hw --platform xilinx_u2_gen3x4_xdma_gc_2_202110_1 -k add_two_numbers --hls.clock 300000000:add_two_numbers -o build.add_two_numbers.hw.xo src/add_two_numbers.cpp ",
+  "args": [
+   "-c",
+   "-t",
+   "hw",
+   "--platform",
+   "xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+   "-k",
+   "add_two_numbers",
+   "--hls.clock",
+   "300000000:add_two_numbers",
+   "-o",
+   "build.add_two_numbers.hw.xo",
+   "src/add_two_numbers.cpp"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/add_two_numbers"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 00:49:32 2026",
+ "timestampMillis": "1787039372660",
+ "status": {
+  "cmdId": "048e969e-5b85-4228-9ff1-d2b8b74fa8ee",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Tue Aug 18 00:49:38 2026",
+ "timestampMillis": "1787039378788",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm",
+  "hardwareDsa": "hw.xsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "add_two_numbers",
+     "file": "/home/uni/project/smartssd/add_two_numbers/build.add_two_numbers.hw.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/uni/project/smartssd/add_two_numbers/src/add_two_numbers.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.2.2. SW Build 3716524 on 2023-02-17-15:43:22"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 00:49:38 2026",
+ "timestampMillis": "1787039378791",
+ "buildStep": {
+  "cmdId": "6ee9a3c6-1702-459b-a9d8-f2f0b9f07a8f",
+  "name": "vitis_hls",
+  "logFile": "/home/uni/project/smartssd/add_two_numbers/_x/build.add_two_numbers.hw/add_two_numbers/vitis_hls.log",
+  "commandLine": "vitis_hls -f /home/uni/project/smartssd/add_two_numbers/_x/build.add_two_numbers.hw/add_two_numbers/add_two_numbers.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/home/uni/project/smartssd/add_two_numbers/_x/build.add_two_numbers.hw/add_two_numbers/add_two_numbers.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/add_two_numbers"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 00:49:38 2026",
+ "timestampMillis": "1787039378791",
+ "status": {
+  "cmdId": "6ee9a3c6-1702-459b-a9d8-f2f0b9f07a8f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 00:50:16 2026",
+ "timestampMillis": "1787039416571",
+ "status": {
+  "cmdId": "6ee9a3c6-1702-459b-a9d8-f2f0b9f07a8f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 00:50:16 2026",
+ "timestampMillis": "1787039416580",
+ "report": {
+  "path": "/home/uni/project/smartssd/add_two_numbers/_x/build.add_two_numbers.hw/add_two_numbers/add_two_numbers/solution/.autopilot/db/add_two_numbers.design.xml",
+  "name": "add_two_numbers",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_REPORT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 00:50:16 2026",
+ "timestampMillis": "1787039416580",
+ "report": {
+  "path": "/home/uni/project/smartssd/add_two_numbers/_x/build.add_two_numbers.hw/add_two_numbers/add_two_numbers/solution/.autopilot/db/.message_syn.xml",
+  "name": "add_two_numbers",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_DRC_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 00:50:16 2026",
+ "timestampMillis": "1787039416581",
+ "report": {
+  "path": "/home/uni/project/smartssd/add_two_numbers/_x/reports/build.add_two_numbers.hw/hls_reports/add_two_numbers_csynth.rpt",
+  "name": "add_two_numbers",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 00:50:16 2026",
+ "timestampMillis": "1787039416582",
+ "report": {
+  "path": "/home/uni/project/smartssd/add_two_numbers/_x/build.add_two_numbers.hw/add_two_numbers/add_two_numbers/solution/syn/report/add_two_numbers_csynth.xml",
+  "name": "add_two_numbers",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 00:50:16 2026",
+ "timestampMillis": "1787039416584",
+ "report": {
+  "path": "/home/uni/project/smartssd/add_two_numbers/_x/reports/build.add_two_numbers.hw/system_estimate_build.add_two_numbers.hw.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 00:50:16 2026",
+ "timestampMillis": "1787039416637",
+ "status": {
+  "cmdId": "048e969e-5b85-4228-9ff1-d2b8b74fa8ee",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 00:50:16 2026",
+ "timestampMillis": "1787039416731",
+ "report": {
+  "path": "/home/uni/project/smartssd/add_two_numbers/_x/reports/build.add_two_numbers.hw/v++_compile_build.add_two_numbers.hw_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 00:50:16 2026",
+ "timestampMillis": "1787039416731",
+ "report": {
+  "path": "/home/uni/project/smartssd/add_two_numbers/_x/v++_compile_build.add_two_numbers.hw_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

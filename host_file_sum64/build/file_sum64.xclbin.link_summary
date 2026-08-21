@@ -1,0 +1,1994 @@
+<ENTRY>
+{
+ "thisFile": "/home/uni/project/smartssd/host_file_sum64/build/file_sum64.xclbin.link_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Aug 18 03:50:00 2026",
+ "timestampMillis": "1787050200696",
+ "buildStep": {
+  "cmdId": "17ed407a-0e94-4b1c-b2c8-6a824f90ed37",
+  "name": "v++",
+  "logFile": "/home/uni/project/smartssd/host_file_sum64/_x/link/link.steps.log",
+  "commandLine": "/home/dess/workspace/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -l -t hw --platform xilinx_u2_gen3x4_xdma_gc_2_202110_1 -o build/file_sum64.xclbin build/file_sum64.xo ",
+  "args": [
+   "-l",
+   "-t",
+   "hw",
+   "--platform",
+   "xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+   "-o",
+   "build/file_sum64.xclbin",
+   "build/file_sum64.xo"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 03:50:00 2026",
+ "timestampMillis": "1787050200696",
+ "status": {
+  "cmdId": "17ed407a-0e94-4b1c-b2c8-6a824f90ed37",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Tue Aug 18 03:50:06 2026",
+ "timestampMillis": "1787050206670",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm",
+  "hardwareDsa": "hw.xsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_LINK",
+  "target": "TT_HW",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "file_sum64",
+    "file": "/home/uni/project/smartssd/host_file_sum64/build/file_sum64.xclbin",
+    "reports": [],
+    "uuid": ""
+   },
+   "kernels": []
+  },
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "file_sum64",
+     "file": "/home/uni/project/smartssd/host_file_sum64/build/file_sum64.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/uni/project/smartssd/host_file_sum64/_x/link/int/xo/file_sum64/file_sum64/cpu_sources/file_sum64.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [
+     "file_sum64_1"
+    ],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.2.2. SW Build 3716524 on 2023-02-17-15:43:22"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 03:50:07 2026",
+ "timestampMillis": "1787050207002",
+ "buildStep": {
+  "cmdId": "94f7abcd-d1d6-4254-9b90-90f8836c8c9c",
+  "name": "system_link",
+  "logFile": "",
+  "commandLine": "system_link --xo /home/uni/project/smartssd/host_file_sum64/build/file_sum64.xo --xpfm /opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm --target hw --output_dir /home/uni/project/smartssd/host_file_sum64/_x/link/int --temp_dir /home/uni/project/smartssd/host_file_sum64/_x/link/sys_link",
+  "args": [
+   "--xo",
+   "/home/uni/project/smartssd/host_file_sum64/build/file_sum64.xo",
+   "--xpfm",
+   "/opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm",
+   "--target",
+   "hw",
+   "--output_dir",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int",
+   "--temp_dir",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/sys_link"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 03:50:07 2026",
+ "timestampMillis": "1787050207003",
+ "status": {
+  "cmdId": "94f7abcd-d1d6-4254-9b90-90f8836c8c9c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 03:50:29 2026",
+ "timestampMillis": "1787050229487",
+ "status": {
+  "cmdId": "94f7abcd-d1d6-4254-9b90-90f8836c8c9c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 03:50:29 2026",
+ "timestampMillis": "1787050229489",
+ "buildStep": {
+  "cmdId": "3fc0cd7c-8fc4-4566-9ecc-571c82b21646",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -sdsl /home/uni/project/smartssd/host_file_sum64/_x/link/int/sdsl.dat -rtd /home/uni/project/smartssd/host_file_sum64/_x/link/int/cf2sw.rtd -nofilter /home/uni/project/smartssd/host_file_sum64/_x/link/int/cf2sw_full.rtd -xclbin /home/uni/project/smartssd/host_file_sum64/_x/link/int/xclbin_orig.xml -o /home/uni/project/smartssd/host_file_sum64/_x/link/int/xclbin_orig.1.xml",
+  "args": [
+   "-sdsl",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/sdsl.dat",
+   "-rtd",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/cf2sw.rtd",
+   "-nofilter",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/cf2sw_full.rtd",
+   "-xclbin",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/xclbin_orig.xml",
+   "-o",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/xclbin_orig.1.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 03:50:29 2026",
+ "timestampMillis": "1787050229490",
+ "status": {
+  "cmdId": "3fc0cd7c-8fc4-4566-9ecc-571c82b21646",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 03:50:34 2026",
+ "timestampMillis": "1787050234690",
+ "status": {
+  "cmdId": "3fc0cd7c-8fc4-4566-9ecc-571c82b21646",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 03:50:34 2026",
+ "timestampMillis": "1787050234692",
+ "buildStep": {
+  "cmdId": "58b0873e-618e-4462-89a9-207984c69021",
+  "name": "rtd2_system_diagram",
+  "logFile": "",
+  "commandLine": "rtd2SystemDiagram",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 03:50:34 2026",
+ "timestampMillis": "1787050234692",
+ "status": {
+  "cmdId": "58b0873e-618e-4462-89a9-207984c69021",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 03:50:35 2026",
+ "timestampMillis": "1787050235031",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/link/int/systemDiagramModel.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 03:50:35 2026",
+ "timestampMillis": "1787050235032",
+ "status": {
+  "cmdId": "58b0873e-618e-4462-89a9-207984c69021",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 03:50:35 2026",
+ "timestampMillis": "1787050235033",
+ "buildStep": {
+  "cmdId": "e02d8722-52d2-4060-beff-446c1e1858a4",
+  "name": "vpl",
+  "logFile": "",
+  "commandLine": "vpl -t hw -f xilinx_u2_gen3x4_xdma_gc_2_202110_1 --remote_ip_cache /home/uni/project/smartssd/host_file_sum64/.ipcache --output_dir /home/uni/project/smartssd/host_file_sum64/_x/link/int --log_dir /home/uni/project/smartssd/host_file_sum64/_x/logs/link --report_dir /home/uni/project/smartssd/host_file_sum64/_x/reports/link --config /home/uni/project/smartssd/host_file_sum64/_x/link/int/vplConfig.ini -k /home/uni/project/smartssd/host_file_sum64/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/uni/project/smartssd/host_file_sum64/_x/link --no-info --iprepo /home/uni/project/smartssd/host_file_sum64/_x/link/int/xo/ip_repo/xilinx_com_hls_file_sum64_1_0 --messageDb /home/uni/project/smartssd/host_file_sum64/_x/link/run_link/vpl.pb /home/uni/project/smartssd/host_file_sum64/_x/link/int/dr.bd.tcl",
+  "args": [
+   "-t",
+   "hw",
+   "-f",
+   "xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+   "--remote_ip_cache",
+   "/home/uni/project/smartssd/host_file_sum64/.ipcache",
+   "--output_dir",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int",
+   "--log_dir",
+   "/home/uni/project/smartssd/host_file_sum64/_x/logs/link",
+   "--report_dir",
+   "/home/uni/project/smartssd/host_file_sum64/_x/reports/link",
+   "--config",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/vplConfig.ini",
+   "-k",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/kernel_info.dat",
+   "--webtalk_flag",
+   "Vitis",
+   "--temp_dir",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link",
+   "--no-info",
+   "--iprepo",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/xo/ip_repo/xilinx_com_hls_file_sum64_1_0",
+   "--messageDb",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/run_link/vpl.pb",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/dr.bd.tcl"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/uni/project/smartssd/host_file_sum64/_x/link/int/vplConfig.ini",
+    "content": "[advanced]\nmisc=report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\nmisc=report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\nparam=compiler.enablePerformanceTrace=1\nparam=compiler.vppCurrentWorkingDir=/home/uni/project/smartssd/host_file_sum64\nmisc=BinaryName=file_sum64\n\n[connectivity]\nnk=file_sum64:1:file_sum64_1\n\n[vivado]\nprop=run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\n\n"
+   }
+  ],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 03:50:35 2026",
+ "timestampMillis": "1787050235034",
+ "status": {
+  "cmdId": "e02d8722-52d2-4060-beff-446c1e1858a4",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Aug 18 03:50:37 2026",
+ "timestampMillis": "1787050237398",
+ "buildStep": {
+  "cmdId": "4947e070-c9cc-4372-bd64-696e8f5c6e2a",
+  "name": "vpl",
+  "logFile": "/home/uni/project/smartssd/host_file_sum64/_x/link/link.steps.log",
+  "commandLine": "/home/dess/workspace/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/vpl -t hw -f xilinx_u2_gen3x4_xdma_gc_2_202110_1 --remote_ip_cache /home/uni/project/smartssd/host_file_sum64/.ipcache --output_dir /home/uni/project/smartssd/host_file_sum64/_x/link/int --log_dir /home/uni/project/smartssd/host_file_sum64/_x/logs/link --report_dir /home/uni/project/smartssd/host_file_sum64/_x/reports/link --config /home/uni/project/smartssd/host_file_sum64/_x/link/int/vplConfig.ini -k /home/uni/project/smartssd/host_file_sum64/_x/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/uni/project/smartssd/host_file_sum64/_x/link --no-info --iprepo /home/uni/project/smartssd/host_file_sum64/_x/link/int/xo/ip_repo/xilinx_com_hls_file_sum64_1_0 --messageDb /home/uni/project/smartssd/host_file_sum64/_x/link/run_link/vpl.pb /home/uni/project/smartssd/host_file_sum64/_x/link/int/dr.bd.tcl ",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64/_x/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 03:50:37 2026",
+ "timestampMillis": "1787050237398",
+ "status": {
+  "cmdId": "4947e070-c9cc-4372-bd64-696e8f5c6e2a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_VivadoProject",
+ "dateTimestamp": "Tue Aug 18 03:50:45 2026",
+ "timestampMillis": "1787050245748",
+ "vivadoProject": {
+  "openDir": "/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl",
+  "openScript": "openprj.tcl",
+  "relativeProject": "prj/prj.xpr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 03:50:45 2026",
+ "timestampMillis": "1787050245749",
+ "buildStep": {
+  "cmdId": "3cd8d142-9a0b-4952-b7de-a887e965f628",
+  "name": "vivado",
+  "logFile": "/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/vivado.log",
+  "commandLine": "vivado -log vivado.log -applog -m64 -messageDb vivado.pb -mode batch -source vpl.tcl -notrace",
+  "args": [
+   "-log",
+   "vivado.log",
+   "-applog",
+   " -m64",
+   "-messageDb",
+   "vivado.pb",
+   "-mode",
+   "batch",
+   "-source",
+   "vpl.tcl",
+   "-notrace"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64/_x/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 03:50:45 2026",
+ "timestampMillis": "1787050245749",
+ "status": {
+  "cmdId": "3cd8d142-9a0b-4952-b7de-a887e965f628",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 03:52:25 2026",
+ "timestampMillis": "1787050345269",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/link/int/automation_summary_update_bd.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "VITIS_DESIGN_FLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Aug 18 04:12:48 2026",
+ "timestampMillis": "1787051568244",
+ "buildStep": {
+  "cmdId": "523bcabf-7801-4b60-8366-33d31b5af758",
+  "name": "vivado.impl",
+  "logFile": "",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 04:12:48 2026",
+ "timestampMillis": "1787051568245",
+ "status": {
+  "cmdId": "523bcabf-7801-4b60-8366-33d31b5af758",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Aug 18 04:12:48 2026",
+ "timestampMillis": "1787051568245",
+ "buildStep": {
+  "cmdId": "38ecea97-cace-4845-bc5f-53329c66797b",
+  "name": "vivado.impl.impl_1",
+  "logFile": "/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.runs/impl_1/runme.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.runs/impl_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 04:12:48 2026",
+ "timestampMillis": "1787051568245",
+ "status": {
+  "cmdId": "38ecea97-cace-4845-bc5f-53329c66797b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:37:19 2026",
+ "timestampMillis": "1787056639872",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.runs/impl_1/system_diagram.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:37:59 2026",
+ "timestampMillis": "1787056679297",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/link/int/kernel_service.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "KERNEL_SERVICE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:37:59 2026",
+ "timestampMillis": "1787056679298",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/link/int/kernel_service.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "KERNEL_SERVICE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:41:14 2026",
+ "timestampMillis": "1787056874370",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.runs/impl_1/dr_timing_summary.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY_FAIL",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336758",
+ "status": {
+  "cmdId": "3cd8d142-9a0b-4952-b7de-a887e965f628",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336839",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_slr_util_placed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SLR_UTIL_PLACED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336839",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_slr_util_routed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_SLR_UTIL_ROUTED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336840",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_full_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336840",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_kernel_util_routed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336840",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_kernel_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336841",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_slr_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SLR_UTIL_ROUTED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336842",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_kernel_util_placed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_PLACEMENT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336842",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_kernel_util_synthed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336842",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_full_util_synthed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336843",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_kernel_util_placed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_PLACEMENT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336843",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_kernel_util_synthed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336843",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_full_util_routed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336844",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_slr_util_placed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_SLR_UTIL_PLACED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336844",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_full_util_synthed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336848",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_ii_level0_wire_0_synth_1_ulp_ii_level0_wire_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336849",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_bram_ctrl_0_0_synth_1_ulp_axi_bram_ctrl_0_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336849",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_fpga_dna_module_0_0_synth_1_ulp_fpga_dna_module_0_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336850",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_protocol_convert_0_0_synth_1_ulp_axi_protocol_convert_0_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336850",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_cdc_data_static_0_synth_1_ulp_axi_cdc_data_static_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336850",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_cdc_data_static1_0_synth_1_ulp_axi_cdc_data_static1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336851",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_gpio_null_0_synth_1_ulp_axi_gpio_null_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336851",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_vip_ctrl_mgntpf_0_synth_1_ulp_axi_vip_ctrl_mgntpf_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336851",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_vip_ctrl_userpf_0_synth_1_ulp_axi_vip_ctrl_userpf_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336852",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_vip_data_static_0_synth_1_ulp_axi_vip_data_static_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336852",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_vip_data_static1_0_synth_1_ulp_axi_vip_data_static1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336852",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_freq_counter_0_0_synth_1_ulp_freq_counter_0_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336853",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_regslice_control_mgntpf_0_synth_1_ulp_regslice_control_mgntpf_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336853",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_regslice_data_static_0_synth_1_ulp_regslice_data_static_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336853",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_regslice_data_static1_0_synth_1_ulp_regslice_data_static1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336854",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_logic_reset_op_0_synth_1_ulp_logic_reset_op_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336854",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_psreset_gate_pr_control_0_synth_1_ulp_psreset_gate_pr_control_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336854",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_psreset_gate_pr_data_0_synth_1_ulp_psreset_gate_pr_data_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336855",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_psreset_gate_pr_kernel_0_synth_1_ulp_psreset_gate_pr_kernel_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336855",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_psreset_gate_pr_kernel2_0_synth_1_ulp_psreset_gate_pr_kernel2_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336855",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_bram_ctrl_0_bram_0_synth_1_ulp_axi_bram_ctrl_0_bram_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336856",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_axi_vip_0_p_0_synth_1_ulp_axi_vip_0_p_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336856",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_ddr1_clk_bufg_0_synth_1_ulp_ddr1_clk_bufg_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336856",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_ddr1_clk_ibufds_0_synth_1_ulp_ddr1_clk_ibufds_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336857",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_ddrmem_1_0_synth_1_ulp_ddrmem_1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336857",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_psreset_ddrmem_n_1_0_synth_1_ulp_psreset_ddrmem_n_1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336857",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_regslice_periph_null_0_synth_1_ulp_regslice_periph_null_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336858",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_user_debug_bridge_0_synth_1_ulp_user_debug_bridge_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336858",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_debug_bridge_xsdbm_0_synth_1_ulp_debug_bridge_xsdbm_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336858",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_xbar_5_synth_1_ulp_xbar_5_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336859",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/bd_9997_axi_jtag_0_synth_1_bd_9997_axi_jtag_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336859",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/bd_9997_bsip_0_synth_1_bd_9997_bsip_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336859",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/bd_9997_bs_switch_1_0_synth_1_bd_9997_bs_switch_1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336860",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/bd_0349_xsdbm_0_synth_1_bd_0349_xsdbm_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336860",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/bd_0349_lut_buffer_0_synth_1_bd_0349_lut_buffer_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336860",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_s03_mmu_0_synth_1_ulp_s03_mmu_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336861",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_auto_cc_2_synth_1_ulp_auto_cc_2_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336861",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_auto_cc_0_synth_1_ulp_auto_cc_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336861",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_xbar_3_synth_1_ulp_xbar_3_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336862",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_xbar_2_synth_1_ulp_xbar_2_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336862",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_s00_regslice_22_synth_1_ulp_s00_regslice_22_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336862",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_m01_regslice_0_synth_1_ulp_m01_regslice_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336863",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_m00_regslice_0_synth_1_ulp_m00_regslice_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336863",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_xbar_4_synth_1_ulp_xbar_4_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336863",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_file_sum64_1_0_synth_1_ulp_file_sum64_1_0_utilization_synth.rpt",
+  "name": "file_sum64",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336863",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_auto_cc_1_synth_1_ulp_auto_cc_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336864",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_s01_regslice_1_synth_1_ulp_s01_regslice_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336864",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_auto_us_cc_df_0_synth_1_ulp_auto_us_cc_df_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336864",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_s02_regslice_1_synth_1_ulp_s02_regslice_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336865",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_auto_us_cc_df_1_synth_1_ulp_auto_us_cc_df_1_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336865",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_s00_regslice_21_synth_1_ulp_s00_regslice_21_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336866",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_s01_regslice_2_synth_1_ulp_s01_regslice_2_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336866",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_s02_regslice_2_synth_1_ulp_s02_regslice_2_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336866",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_s03_regslice_0_synth_1_ulp_s03_regslice_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336866",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_auto_us_0_synth_1_ulp_auto_us_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336867",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/syn/ulp_auto_rs_w_0_synth_1_ulp_auto_rs_w_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336867",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_system_diagram.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS",
+  "cmdId": "38ecea97-cace-4845-bc5f-53329c66797b"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336884",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY",
+  "cmdId": "38ecea97-cace-4845-bc5f-53329c66797b"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336900",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpx",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY",
+  "cmdId": "38ecea97-cace-4845-bc5f-53329c66797b"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:56 2026",
+ "timestampMillis": "1787057336901",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpv",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY_CONCISE",
+  "cmdId": "38ecea97-cace-4845-bc5f-53329c66797b"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:48:57 2026",
+ "timestampMillis": "1787057337253",
+ "status": {
+  "cmdId": "4947e070-c9cc-4372-bd64-696e8f5c6e2a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:48:57 2026",
+ "timestampMillis": "1787057337282",
+ "status": {
+  "cmdId": "e02d8722-52d2-4060-beff-446c1e1858a4",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 05:48:57 2026",
+ "timestampMillis": "1787057337284",
+ "buildStep": {
+  "cmdId": "236c6e72-354a-487d-a25d-e1e16574a190",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "rtdgen",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:48:57 2026",
+ "timestampMillis": "1787057337284",
+ "status": {
+  "cmdId": "236c6e72-354a-487d-a25d-e1e16574a190",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:48:57 2026",
+ "timestampMillis": "1787057337286",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64_xml.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "XCLBIN_INFO",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 05:48:57 2026",
+ "timestampMillis": "1787057337287",
+ "buildStep": {
+  "cmdId": "6be3f224-fb5b-48f9-a634-0f3246bd7195",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -a /home/uni/project/smartssd/host_file_sum64/_x/link/int/address_map.xml -sdsl /home/uni/project/smartssd/host_file_sum64/_x/link/int/sdsl.dat -xclbin /home/uni/project/smartssd/host_file_sum64/_x/link/int/xclbin_orig.xml -rtd /home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64.rtd -o /home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64.xml",
+  "args": [
+   "-a",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/address_map.xml",
+   "-sdsl",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/sdsl.dat",
+   "-xclbin",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/xclbin_orig.xml",
+   "-rtd",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64.rtd",
+   "-o",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:48:57 2026",
+ "timestampMillis": "1787057337287",
+ "status": {
+  "cmdId": "6be3f224-fb5b-48f9-a634-0f3246bd7195",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341941",
+ "status": {
+  "cmdId": "6be3f224-fb5b-48f9-a634-0f3246bd7195",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341942",
+ "buildStep": {
+  "cmdId": "48edc6b9-763c-48a5-a224-10fcbf84fe34",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "writeSystemDiagram",
+  "args": [
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64.rtd",
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/systemDiagramModelSlrBaseAddress.json"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341942",
+ "status": {
+  "cmdId": "48edc6b9-763c-48a5-a224-10fcbf84fe34",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341944",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/link/int/systemDiagramModelSlrBaseAddress.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341945",
+ "status": {
+  "cmdId": "48edc6b9-763c-48a5-a224-10fcbf84fe34",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341945",
+ "buildStep": {
+  "cmdId": "ea58b528-5b46-47f4-b580-c69f5a47e377",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "writeAutomationSummary",
+  "args": [
+   "/home/uni/project/smartssd/host_file_sum64/_x/link/int/automation_summary.txt"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341945",
+ "status": {
+  "cmdId": "ea58b528-5b46-47f4-b580-c69f5a47e377",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341946",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/link/int/automation_summary.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "VITIS_DESIGN_FLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341946",
+ "status": {
+  "cmdId": "ea58b528-5b46-47f4-b580-c69f5a47e377",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341946",
+ "status": {
+  "cmdId": "236c6e72-354a-487d-a25d-e1e16574a190",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341948",
+ "buildStep": {
+  "cmdId": "53841f91-3d2e-4beb-a1bb-561c3f0c49c3",
+  "name": "xclbinutil",
+  "logFile": "",
+  "commandLine": "xclbinutil --add-section BITSTREAM:RAW:/home/uni/project/smartssd/host_file_sum64/_x/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64.rtd --append-section :JSON:/home/uni/project/smartssd/host_file_sum64/_x/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64_xml.rtd --add-section BUILD_METADATA:JSON:/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64_build.rtd --add-section EMBEDDED_METADATA:RAW:/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64.xml --add-section SYSTEM_METADATA:RAW:/home/uni/project/smartssd/host_file_sum64/_x/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u2_gen3x4_xdma_gc_2_202110_1 --output /home/uni/project/smartssd/host_file_sum64/build/file_sum64.xclbin",
+  "args": [
+   "--add-section",
+   "BITSTREAM:RAW:/home/uni/project/smartssd/host_file_sum64/_x/link/int/partial.bit",
+   "--force",
+   "--target",
+   "hw",
+   "--key-value",
+   "SYS:dfx_enable:true",
+   "--add-section",
+   ":JSON:/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64.rtd",
+   "--append-section",
+   ":JSON:/home/uni/project/smartssd/host_file_sum64/_x/link/int/appendSection.rtd",
+   "--add-section",
+   "CLOCK_FREQ_TOPOLOGY:JSON:/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64_xml.rtd",
+   "--add-section",
+   "BUILD_METADATA:JSON:/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64_build.rtd",
+   "--add-section",
+   "EMBEDDED_METADATA:RAW:/home/uni/project/smartssd/host_file_sum64/_x/link/int/file_sum64.xml",
+   "--add-section",
+   "SYSTEM_METADATA:RAW:/home/uni/project/smartssd/host_file_sum64/_x/link/int/systemDiagramModelSlrBaseAddress.json",
+   "--key-value",
+   "SYS:PlatformVBNV:xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+   "--output",
+   "/home/uni/project/smartssd/host_file_sum64/build/file_sum64.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:01 2026",
+ "timestampMillis": "1787057341948",
+ "status": {
+  "cmdId": "53841f91-3d2e-4beb-a1bb-561c3f0c49c3",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342147",
+ "status": {
+  "cmdId": "53841f91-3d2e-4beb-a1bb-561c3f0c49c3",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342149",
+ "buildStep": {
+  "cmdId": "08db26f1-5ac5-45c8-88c7-c036d19d442e",
+  "name": "xclbinutilinfo",
+  "logFile": "",
+  "commandLine": "xclbinutil --quiet --force --info /home/uni/project/smartssd/host_file_sum64/build/file_sum64.xclbin.info --input /home/uni/project/smartssd/host_file_sum64/build/file_sum64.xclbin",
+  "args": [
+   "--quiet",
+   "--force",
+   "--info",
+   "/home/uni/project/smartssd/host_file_sum64/build/file_sum64.xclbin.info",
+   "--input",
+   "/home/uni/project/smartssd/host_file_sum64/build/file_sum64.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342149",
+ "status": {
+  "cmdId": "08db26f1-5ac5-45c8-88c7-c036d19d442e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342556",
+ "status": {
+  "cmdId": "08db26f1-5ac5-45c8-88c7-c036d19d442e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342558",
+ "buildStep": {
+  "cmdId": "800e8bae-0db2-4b02-9dbe-1a8a21406bd0",
+  "name": "generate_sc_driver",
+  "logFile": "",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/smartssd/host_file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342558",
+ "status": {
+  "cmdId": "800e8bae-0db2-4b02-9dbe-1a8a21406bd0",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342559",
+ "status": {
+  "cmdId": "800e8bae-0db2-4b02-9dbe-1a8a21406bd0",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342564",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/system_estimate_file_sum64.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342875",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/logs/optraceViewer.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "OPERATION_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342876",
+ "status": {
+  "cmdId": "17ed407a-0e94-4b1c-b2c8-6a824f90ed37",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342972",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/reports/link/v++_link_file_sum64_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Aug 18 05:49:02 2026",
+ "timestampMillis": "1787057342972",
+ "report": {
+  "path": "/home/uni/project/smartssd/host_file_sum64/_x/v++_link_file_sum64_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

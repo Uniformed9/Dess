@@ -1,0 +1,22 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+	Reports: /home/uni/project/smartssd/add_two_numbers/_x/reports/build.add_two_numbers.hw
+	Log files: /home/uni/project/smartssd/add_two_numbers/_x/logs/build.add_two_numbers.hw
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/uni/project/smartssd/add_two_numbers/build.add_two_numbers.hw.xo.compile_summary, at Tue Aug 18 00:49:32 2026
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/uni/project/smartssd/add_two_numbers/_x/reports/build.add_two_numbers.hw/v++_compile_build.add_two_numbers.hw_guidance.html', at Tue Aug 18 00:49:32 2026
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.2
+INFO: [v++ 60-585] Compiling for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u2_gen3x4_xdma_gc_2_202110_1
+INFO: [v++ 60-242] Creating kernel: 'add_two_numbers'
+INFO: [v++ 60-1616] Creating a HLS clock using hls.clock option: 300 MHz
+
+===>The following messages were generated while  performing high-level synthesis for kernel: add_two_numbers Log file: /home/uni/project/smartssd/add_two_numbers/_x/build.add_two_numbers.hw/add_two_numbers/vitis_hls.log :
+INFO: [v++ 200-789] **** Estimated Fmax: 411.00 MHz
+INFO: [v++ 60-594] Finished kernel compilation
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /home/uni/project/smartssd/add_two_numbers/_x/reports/build.add_two_numbers.hw/system_estimate_build.add_two_numbers.hw.xtxt
+INFO: [v++ 60-586] Created build.add_two_numbers.hw.xo
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/uni/project/smartssd/add_two_numbers/build.add_two_numbers.hw.xo.compile_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 54s

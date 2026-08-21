@@ -1,0 +1,39 @@
+===============================================================================
+Version:    v++ v2022.2.2 (64-bit)
+Build:      SW Build 3716524 on 2023-02-17-15:43:22
+Copyright:  Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+Created:    Tue Aug 18 02:56:51 2026
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             add_two_numbers.hw
+Target Device:           xilinx:u2:gen3x4_xdma_gc_2:202110.1
+Target Clock:            300.000000MHz
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name      Type  Target              OpenCL Library      Compute Units
+---------------  ----  ------------------  ------------------  -------------
+add_two_numbers  c     fpga0:OCL_REGION_0  add_two_numbers.hw  1
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     add_two_numbers.hw
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit       Kernel Name      Module Name      Target Frequency  Estimated Frequency
+-----------------  ---------------  ---------------  ----------------  -------------------
+add_two_numbers_1  add_two_numbers  add_two_numbers  300.300293        411.015198
+
+Latency Information
+Compute Unit       Kernel Name      Module Name      Start Interval  Best (cycles)  Avg (cycles)  Worst (cycles)  Best (absolute)  Avg (absolute)  Worst (absolute)
+-----------------  ---------------  ---------------  --------------  -------------  ------------  --------------  ---------------  --------------  ----------------
+add_two_numbers_1  add_two_numbers  add_two_numbers  71              70             70            70              0.233 us         0.233 us        0.233 us
+
+Area Information
+Compute Unit       Kernel Name      Module Name      FF    LUT   DSP  BRAM  URAM
+-----------------  ---------------  ---------------  ----  ----  ---  ----  ----
+add_two_numbers_1  add_two_numbers  add_two_numbers  1063  2013  0    0     0
+-------------------------------------------------------------------------------

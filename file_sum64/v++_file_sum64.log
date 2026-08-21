@@ -1,0 +1,17 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ link can be found at:
+	Reports: /home/uni/project/Dess/file_sum64/_x/reports/link
+	Log files: /home/uni/project/Dess/file_sum64/_x/logs/link
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/uni/project/Dess/file_sum64/build/file_sum64.xclbin.link_summary, at Fri Aug 21 02:26:44 2026
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/uni/project/Dess/file_sum64/_x/reports/link/v++_link_file_sum64_guidance.html', at Fri Aug 21 02:26:44 2026
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.2
+INFO: [v++ 60-629] Linking for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_u2_gen3x4_xdma_gc_2_202110_1
+INFO: [v++ 60-1332] Run 'run_link' status: Not started
+INFO: [v++ 60-1443] [02:26:50] Run run_link: Step system_link: Started
+INFO: [v++ 60-1453] Command Line: system_link --xo /home/uni/project/Dess/file_sum64/build/file_sum64.xo --xpfm /opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm --target hw --output_dir /home/uni/project/Dess/file_sum64/_x/link/int --temp_dir /home/uni/project/Dess/file_sum64/_x/link/sys_link
+INFO: [v++ 60-1454] Run Directory: /home/uni/project/Dess/file_sum64/_x/link/run_link
+INFO: [SYSTEM_LINK 82-70] Extracting xo v3 file /home/uni/project/Dess/file_sum64/build/file_sum64.xo
+INFO: [SYSTEM_LINK 82-53] Creating IP database /home/uni/project/Dess/file_sum64/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml
+INFO: [SYSTEM_LINK 82-38] [02:26:53] build_xd_ip_db started: /home/dess/workspace/Xilinx/Vitis/2022.2/bin/build_xd_ip_db -ip_search 0  -sds-pf /home/uni/project/Dess/file_sum64/_x/link/sys_link/hw.hpfm -clkid 0 -ip /home/uni/project/Dess/file_sum64/_x/link/sys_link/iprepo/xilinx_com_hls_file_sum64_1_0,file_sum64 -o /home/uni/project/Dess/file_sum64/_x/link/sys_link/_sysl/.cdb/xd_ip_db.xml

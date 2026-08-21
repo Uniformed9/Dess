@@ -1,0 +1,321 @@
+
+*** Running vivado
+    with args -log ulp_axi_vip_data_static_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ulp_axi_vip_data_static_0.tcl
+
+
+****** Vivado v2022.2.2 (64-bit)
+  **** SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+  **** IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+    ** Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+
+source ulp_axi_vip_data_static_0.tcl -notrace
+INFO: Dispatch client connection id - 42595
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1831.555 ; gain = 87.992 ; free physical = 101132 ; free virtual = 227239
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_gt_if:1.0' found within IP repository '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_gt_if.xml
+File ignored: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0' found within IP repository '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom.xml
+File ignored: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_gt_if_rtl:1.0' found within IP repository '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_gt_if_rtl.xml
+File ignored: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4_uscaleplus:int_gtcom_rtl:1.0' found within IP repository '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_int_gtcom_rtl.xml
+File ignored: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom_rtl:1.0' found within IP repository '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom_rtl.xml
+File ignored: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0' found within IP repository '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_int_gtcom.xml
+File ignored: /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom.xml
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/uni/project/smartssd/host_file_sum64/_x/link/int/xo/ip_repo/xilinx_com_hls_file_sum64_1_0'.
+WARNING: [IP_Flow 19-2207] Repository '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/ipcache'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/dess/workspace/Xilinx/Vitis/2022.2/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:icap_arb:1.0'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/icap_arb_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_clk_metadata_adapter:1.0'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axi_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/ii_infra_ipdefs/axi_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axis_clk_metadata_adapter:1.0'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axis_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/ii_infra_ipdefs/axis_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:hbm_memory_subsystem:2.0'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/hbm_memory_subsystem_v2_0' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_build_info:1.0'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/shell_utils_build_info_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:xdma:4.1'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_msp432_bsl_crc_gen:1.0'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/shell_utils_msp432_bsl_crc_gen_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_hwicap:3.0'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axi_hwicap_v3_0' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pcie4_uscale_plus:1.3'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:mailbox:2.1'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/mailbox_v2_1' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:clk_metadata_adapter:1.0'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/ii_infra_ipdefs/clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pipeline_reg:1.0'. The one found in IP location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pipeline_reg_v1_0' will take precedence over the same IP in location /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/ii_infra_ipdefs/pipeline_reg_v1_0
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:pcie3_us_gt_if:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie3_us_gt_if.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie3_ultrascale_v4_4/interfaces/pcie3_us_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_gt_if:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_gt_if.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_7x_transceiver_debug:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie3_7x_transceiver_debug.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/pcie3_7x_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:int_shared_logic:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie3_us_int_shared_logic.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/pcie3_us_int_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_cfg_external_msix:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie_cfg_ext_msix.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_us_transceiver_debug:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie3_us_transceiver_debug.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/pcie3_us_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_debug_ports:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/xdma_debug_ports.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/xdma_debug_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie4_us_plus_transceiver_debug:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_us_plus_transceiver_debug.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/pcie4_us_plus_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_debug:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie_debug.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/pcie_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_status_ports:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/xdma_status_ports.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/xdma_status_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:ext_shared_logic:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie3_us_ext_shared_logic.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie3_us_ext_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:usr_flr:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/usr_flr.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/xdma_v4_1/interfaces/usr_flr.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_int_gtcom.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:dsc_bypass:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/dsc_bypass.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/xdma_v4_1/interfaces/dsc_bypass.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:transceiver_debug:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/transceiver_debug.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_external_msix:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_ext_msix.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_msix_internal:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix_int.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_rbar:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_rbar.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_rbar.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_control:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_control.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_control.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_mgmt:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_mgmt.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_mgmt.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_pl:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_pl.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_pl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_status:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_status.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_status.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_pcie_id:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_pcie_id.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_pcie_id.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_msix_external:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_pm:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_pm.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_pm.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_drp:1.0'. The one found in location '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_drp.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_drp.xml'
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ulp_axi_vip_data_static_0
+Command: synth_design -top ulp_axi_vip_data_static_0 -part xcku15p-ffva1156-2LV-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku15p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku15p'
+INFO: [Device 21-403] Loading part xcku15p-ffva1156-2LV-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 1 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2252258
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/dess/workspace/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3304.641 ; gain = 279.797 ; free physical = 98132 ; free virtual = 224224
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2518.530; parent = 2385.263; children = 133.268
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4308.562; parent = 3308.613; children = 999.949
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ulp_axi_vip_data_static_0' [/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_axi_vip_data_static_0/synth/ulp_axi_vip_data_static_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_vip_v1_1_13_top' [/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ffc2/hdl/axi_vip_v1_1_vlsyn_rfs.sv:60]
+INFO: [Synth 8-6155] done synthesizing module 'axi_vip_v1_1_13_top' (0#1) [/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/ffc2/hdl/axi_vip_v1_1_vlsyn_rfs.sv:60]
+INFO: [Synth 8-6155] done synthesizing module 'ulp_axi_vip_data_static_0' (0#1) [/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_axi_vip_data_static_0/synth/ulp_axi_vip_data_static_0.sv:53]
+WARNING: [Synth 8-7129] Port aclk in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aresetn in module axi_vip_v1_1_13_top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 3376.578 ; gain = 351.734 ; free physical = 98528 ; free virtual = 224621
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2518.530; parent = 2385.263; children = 133.268
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4376.531; parent = 3376.582; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3391.422 ; gain = 366.578 ; free physical = 98677 ; free virtual = 224770
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2518.530; parent = 2385.263; children = 133.268
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4391.375; parent = 3391.426; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3391.422 ; gain = 366.578 ; free physical = 98762 ; free virtual = 224855
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2518.530; parent = 2385.263; children = 133.268
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4391.375; parent = 3391.426; children = 999.949
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3391.422 ; gain = 0.000 ; free physical = 98936 ; free virtual = 225029
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_axi_vip_data_static_0/ulp_axi_vip_data_static_0_ooc.xdc] for cell 'inst'
+create_clock: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3423.176 ; gain = 0.000 ; free physical = 99102 ; free virtual = 225200
+Finished Parsing XDC File [/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_axi_vip_data_static_0/ulp_axi_vip_data_static_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.runs/ulp_axi_vip_data_static_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.runs/ulp_axi_vip_data_static_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3423.176 ; gain = 0.000 ; free physical = 99101 ; free virtual = 225199
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3423.176 ; gain = 0.000 ; free physical = 99084 ; free virtual = 225182
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/dess/workspace/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 3423.176 ; gain = 398.332 ; free physical = 97850 ; free virtual = 223945
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2518.530; parent = 2385.263; children = 133.658
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4423.129; parent = 3423.180; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcku15p-ffva1156-2LV-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 3423.176 ; gain = 398.332 ; free physical = 97825 ; free virtual = 223921
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2518.530; parent = 2385.263; children = 133.658
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4423.129; parent = 3423.180; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.runs/ulp_axi_vip_data_static_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 3423.176 ; gain = 398.332 ; free physical = 97792 ; free virtual = 223887
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2518.530; parent = 2385.263; children = 133.658
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4423.129; parent = 3423.180; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 3423.176 ; gain = 398.332 ; free physical = 97729 ; free virtual = 223825
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2518.530; parent = 2385.263; children = 133.658
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4423.129; parent = 3423.180; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port aclk in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module axi_vip_v1_1_13_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aresetn in module axi_vip_v1_1_13_top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 3423.176 ; gain = 398.332 ; free physical = 97160 ; free virtual = 223261
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2518.530; parent = 2385.263; children = 133.658
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4423.129; parent = 3423.180; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 3818.520 ; gain = 793.676 ; free physical = 99923 ; free virtual = 226019
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2980.524; parent = 2846.217; children = 134.308
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4818.473; parent = 3818.523; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 3819.520 ; gain = 794.676 ; free physical = 100010 ; free virtual = 226106
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2981.167; parent = 2846.875; children = 134.308
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4819.473; parent = 3819.523; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:47 . Memory (MB): peak = 3838.551 ; gain = 813.707 ; free physical = 100034 ; free virtual = 226131
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2981.658; parent = 2847.394; children = 134.308
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4838.504; parent = 3838.555; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 3844.488 ; gain = 819.645 ; free physical = 98851 ; free virtual = 224948
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2981.658; parent = 2847.394; children = 134.308
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4844.441; parent = 3844.492; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 3844.488 ; gain = 819.645 ; free physical = 98836 ; free virtual = 224933
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2981.658; parent = 2847.394; children = 134.308
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4844.441; parent = 3844.492; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 3844.488 ; gain = 819.645 ; free physical = 98836 ; free virtual = 224932
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2981.658; parent = 2847.394; children = 134.308
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4844.441; parent = 3844.492; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 3844.488 ; gain = 819.645 ; free physical = 98883 ; free virtual = 224980
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2981.658; parent = 2847.394; children = 134.308
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4844.441; parent = 3844.492; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 3844.488 ; gain = 819.645 ; free physical = 98923 ; free virtual = 225019
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2981.658; parent = 2847.394; children = 134.308
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4844.441; parent = 3844.492; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 3844.488 ; gain = 819.645 ; free physical = 98967 ; free virtual = 225058
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2981.658; parent = 2847.394; children = 134.308
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4844.441; parent = 3844.492; children = 999.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 3844.488 ; gain = 819.645 ; free physical = 99052 ; free virtual = 225143
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2981.658; parent = 2847.394; children = 134.308
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4844.441; parent = 3844.492; children = 999.949
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:00:46 . Memory (MB): peak = 3844.488 ; gain = 787.891 ; free physical = 99242 ; free virtual = 225333
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:55 . Memory (MB): peak = 3844.496 ; gain = 819.645 ; free physical = 99374 ; free virtual = 225465
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:05 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3844.496 ; gain = 0.000 ; free physical = 99641 ; free virtual = 225732
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3897.082 ; gain = 0.000 ; free physical = 101332 ; free virtual = 227423
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: fa8cd610
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 53 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:08 . Memory (MB): peak = 3911.020 ; gain = 1970.832 ; free physical = 101596 ; free virtual = 227687
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.runs/ulp_axi_vip_data_static_0_synth_1/ulp_axi_vip_data_static_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ulp_axi_vip_data_static_0, cache-ID = dde8a108fd5780c3
+INFO: [Common 17-1381] The checkpoint '/home/uni/project/smartssd/host_file_sum64/_x/link/vivado/vpl/prj/prj.runs/ulp_axi_vip_data_static_0_synth_1/ulp_axi_vip_data_static_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ulp_axi_vip_data_static_0_utilization_synth.rpt -pb ulp_axi_vip_data_static_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 18 04:07:10 2026...

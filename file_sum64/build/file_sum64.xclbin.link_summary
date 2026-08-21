@@ -1,0 +1,130 @@
+<ENTRY>
+{
+ "thisFile": "/home/uni/project/Dess/file_sum64/build/file_sum64.xclbin.link_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Fri Aug 21 02:26:44 2026",
+ "timestampMillis": "1787304404457",
+ "buildStep": {
+  "cmdId": "cef819f9-554f-4000-8232-9912c406b967",
+  "name": "v++",
+  "logFile": "/home/uni/project/Dess/file_sum64/_x/link/link.steps.log",
+  "commandLine": "/home/dess/workspace/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -l -t hw --platform xilinx_u2_gen3x4_xdma_gc_2_202110_1 -o build/file_sum64.xclbin build/file_sum64.xo ",
+  "args": [
+   "-l",
+   "-t",
+   "hw",
+   "--platform",
+   "xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+   "-o",
+   "build/file_sum64.xclbin",
+   "build/file_sum64.xo"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:26:44 2026",
+ "timestampMillis": "1787304404457",
+ "status": {
+  "cmdId": "cef819f9-554f-4000-8232-9912c406b967",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Fri Aug 21 02:26:50 2026",
+ "timestampMillis": "1787304410409",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm",
+  "hardwareDsa": "hw.xsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_LINK",
+  "target": "TT_HW",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "file_sum64",
+    "file": "/home/uni/project/Dess/file_sum64/build/file_sum64.xclbin",
+    "reports": [],
+    "uuid": ""
+   },
+   "kernels": []
+  },
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "file_sum64",
+     "file": "/home/uni/project/Dess/file_sum64/build/file_sum64.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/uni/project/Dess/file_sum64/_x/link/int/xo/file_sum64/file_sum64/cpu_sources/file_sum64.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [
+     "file_sum64_1"
+    ],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.2.2. SW Build 3716524 on 2023-02-17-15:43:22"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Fri Aug 21 02:26:50 2026",
+ "timestampMillis": "1787304410742",
+ "buildStep": {
+  "cmdId": "03efb8f2-1f1d-49e6-8a9a-01facb36e6e3",
+  "name": "system_link",
+  "logFile": "",
+  "commandLine": "system_link --xo /home/uni/project/Dess/file_sum64/build/file_sum64.xo --xpfm /opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm --target hw --output_dir /home/uni/project/Dess/file_sum64/_x/link/int --temp_dir /home/uni/project/Dess/file_sum64/_x/link/sys_link",
+  "args": [
+   "--xo",
+   "/home/uni/project/Dess/file_sum64/build/file_sum64.xo",
+   "--xpfm",
+   "/opt/xilinx/platforms/xilinx_u2_gen3x4_xdma_gc_2_202110_1/xilinx_u2_gen3x4_xdma_gc_2_202110_1.xpfm",
+   "--target",
+   "hw",
+   "--output_dir",
+   "/home/uni/project/Dess/file_sum64/_x/link/int",
+   "--temp_dir",
+   "/home/uni/project/Dess/file_sum64/_x/link/sys_link"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/uni/project/Dess/file_sum64"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Fri Aug 21 02:26:50 2026",
+ "timestampMillis": "1787304410742",
+ "status": {
+  "cmdId": "03efb8f2-1f1d-49e6-8a9a-01facb36e6e3",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>

@@ -1,0 +1,50 @@
+====================================================================
+Version:    xcd v2022.2.2 (64-bit)
+Copyright:  Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+Created:    Tue Aug 18 05:49:01 2026
+====================================================================
+
+1. Kernel and compute unit information
+======================================
+
+Compute Unit: file_sum64_1
+Kernel: file_sum64
+Base Address: 0x1810000
+Clock Pin: ap_clk
+Reset Pin: ap_rst_n
+
+2. Interface Connections
+========================
+
+IP to Compute Unit
+------------------
+Source Pin: slr1/M01_AXI
+Destination Pin: file_sum64_1/s_axi_control
+
+Compute Unit to IP
+------------------
+Source Pin: file_sum64_1/m_axi_gmem0
+Destination Pin: axi_interconnect_0/S01_AXI
+
+Source Pin: file_sum64_1/m_axi_gmem1
+Destination Pin: axi_interconnect_0/S02_AXI
+
+3. Clock Connections
+====================
+
+Compute Unit: file_sum64_1
+Clock ID: 0
+Platform Clock Frequency: 300.000000 MHz
+Requested Kernel Clock Frequency: 300.000000 MHz
+Achieved Kernel Clock Frequency: 288.300000 MHz
+Source Port: /blp_s_aclk_kernel_ref_clk_00
+Destination Pin: file_sum64_1/ap_clk
+
+4. Reset Connections
+====================
+
+Compute Unit: file_sum64_1
+Source Pin: slr1/peripheral_aresetn
+Destination Pin: file_sum64_1/ap_rst_n
+Associated Clock Pin: file_sum64_1/ap_clk
+

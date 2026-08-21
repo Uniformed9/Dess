@@ -1,0 +1,607 @@
+
+*** Running vivado
+    with args -log ulp_axi_bram_ctrl_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ulp_axi_bram_ctrl_0_0.tcl
+
+
+****** Vivado v2022.2.2 (64-bit)
+  **** SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+  **** IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+    ** Copyright 1986-2023 Xilinx, Inc. All Rights Reserved.
+
+source ulp_axi_bram_ctrl_0_0.tcl -notrace
+INFO: Dispatch client connection id - 44803
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1831.621 ; gain = 89.992 ; free physical = 104345 ; free virtual = 230104
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4:pcie4_gt_if:1.0' found within IP repository '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_gt_if.xml
+File ignored: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0' found within IP repository '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom.xml
+File ignored: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4:pcie4_gt_if_rtl:1.0' found within IP repository '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_gt_if_rtl.xml
+File ignored: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4_uscaleplus:int_gtcom_rtl:1.0' found within IP repository '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_int_gtcom_rtl.xml
+File ignored: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Abstraction IP file 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom_rtl:1.0' found within IP repository '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom_rtl.xml
+File ignored: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom_rtl.xml
+WARNING: [IP_Flow 19-1694] Ignoring duplicate Bus Definition IP file 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0' found within IP repository '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+File in use: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_int_gtcom.xml
+File ignored: /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom.xml
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/uni/project/smartssd/add_two_numbers/_x/link/int/xo/ip_repo/xilinx_com_hls_add_two_numbers_1_0'.
+WARNING: [IP_Flow 19-2207] Repository '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/ipcache'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/dess/workspace/Xilinx/Vitis/2022.2/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:icap_arb:1.0'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/icap_arb_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_clk_metadata_adapter:1.0'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axi_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/ii_infra_ipdefs/axi_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axis_clk_metadata_adapter:1.0'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axis_clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/ii_infra_ipdefs/axis_clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:hbm_memory_subsystem:2.0'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/hbm_memory_subsystem_v2_0' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_build_info:1.0'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/shell_utils_build_info_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:xdma:4.1'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:shell_utils_msp432_bsl_crc_gen:1.0'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/shell_utils_msp432_bsl_crc_gen_v1_0' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:axi_hwicap:3.0'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/axi_hwicap_v3_0' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pcie4_uscale_plus:1.3'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:mailbox:2.1'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/mailbox_v2_1' will take precedence over the same IP in the Xilinx installed IP.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:clk_metadata_adapter:1.0'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/clk_metadata_adapter_v1_0' will take precedence over the same IP in location /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/ii_infra_ipdefs/clk_metadata_adapter_v1_0
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:ip:pipeline_reg:1.0'. The one found in IP location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pipeline_reg_v1_0' will take precedence over the same IP in location /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/ii_infra_ipdefs/pipeline_reg_v1_0
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie3_ultrascale:pcie3_us_gt_if:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie3_us_gt_if.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie3_ultrascale_v4_4/interfaces/pcie3_us_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_gt_if:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_gt_if.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_gt_if.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_7x_transceiver_debug:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie3_7x_transceiver_debug.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/pcie3_7x_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:int_shared_logic:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie3_us_int_shared_logic.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/pcie3_us_int_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:ext_gtcom:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_ext_gtcom.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_ext_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_cfg_external_msix:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie_cfg_ext_msix.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie3_us_transceiver_debug:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie3_us_transceiver_debug.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/pcie3_us_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_debug_ports:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/xdma_debug_ports.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/xdma_debug_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie4_us_plus_transceiver_debug:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_us_plus_transceiver_debug.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/pcie4_us_plus_transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:pcie_debug:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie_debug.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/pcie_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:xdma_status_ports:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/xdma_status_ports.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/qdma_v5_0/interfaces/xdma_status_ports.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:ext_shared_logic:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie3_us_ext_shared_logic.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/xdma_v4_1/interfaces/pcie3_us_ext_shared_logic.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_qdma:usr_flr:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/usr_flr.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/xdma_v4_1/interfaces/usr_flr.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:int_gtcom:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/pcie4_usp_int_gtcom.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_usp_int_gtcom.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_xdma:dsc_bypass:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/xdma_v4_1/interfaces/dsc_bypass.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/xdma_v4_1/interfaces/dsc_bypass.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4_uscaleplus:transceiver_debug:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/transceiver_debug.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/transceiver_debug.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_external_msix:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_ext_msix.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_ext_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_msix_internal:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix_int.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix_int.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_rbar:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_rbar.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_rbar.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_control:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_control.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_control.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_mgmt:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_mgmt.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_mgmt.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_pl:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_pl.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_pl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_status:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_status.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_status.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_pcie_id:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_pcie_id.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_pcie_id.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_msix_external:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_msix.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_cfg_pm:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_pm.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_cfg_pm.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_pcie4:pcie4_drp:1.0'. The one found in location '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/.local/hw_platform/iprepo/ipdefs/other_ipdefs/pcie4_uscale_plus_v1_3/interfaces/pcie4_drp.xml' will take precedence over the same Interface in location '/home/dess/workspace/Xilinx/Vivado/2022.2/data/ip/xilinx/pcie4_uscale_plus_v1_3/interfaces/pcie4_drp.xml'
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ulp_axi_bram_ctrl_0_0
+Command: synth_design -top ulp_axi_bram_ctrl_0_0 -part xcku15p-ffva1156-2LV-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku15p'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku15p'
+INFO: [Device 21-403] Loading part xcku15p-ffva1156-2LV-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 1 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1968138
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/dess/workspace/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3301.746 ; gain = 277.828 ; free physical = 101682 ; free virtual = 227445
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2518.450; parent = 2385.337; children = 133.113
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4307.633; parent = 3307.688; children = 999.945
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ulp_axi_bram_ctrl_0_0' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_axi_bram_ctrl_0_0/synth/ulp_axi_bram_ctrl_0_0.vhd:115]
+	Parameter C_BRAM_INST_MODE bound to: EXTERNAL - type: string 
+	Parameter C_MEMORY_DEPTH bound to: 512 - type: integer 
+	Parameter C_BRAM_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 15 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 512 - type: integer 
+	Parameter C_S_AXI_ID_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_PROTOCOL bound to: AXI4 - type: string 
+	Parameter C_S_AXI_SUPPORTS_NARROW_BURST bound to: 1 - type: integer 
+	Parameter C_SINGLE_PORT_BRAM bound to: 0 - type: integer 
+	Parameter C_FAMILY bound to: kintexuplus - type: string 
+	Parameter C_READ_LATENCY bound to: 1 - type: integer 
+	Parameter C_RD_CMD_OPTIMIZATION bound to: 0 - type: integer 
+	Parameter C_S_AXI_CTRL_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_ECC_TYPE bound to: 0 - type: integer 
+	Parameter C_FAULT_INJECT bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'axi_bram_ctrl' declared at '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31357' bound to instance 'U0' of component 'axi_bram_ctrl' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_axi_bram_ctrl_0_0/synth/ulp_axi_bram_ctrl_0_0.vhd:278]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31528]
+INFO: [Synth 8-638] synthesizing module 'axi_bram_ctrl_top' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:30527]
+INFO: [Synth 8-638] synthesizing module 'full_axi' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29280]
+WARNING: [Synth 8-6774] Null subtype or type declaration found [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29350]
+INFO: [Synth 8-3919] null assignment ignored [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29350]
+WARNING: [Synth 8-6774] Null subtype or type declaration found [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29351]
+INFO: [Synth 8-3919] null assignment ignored [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29351]
+INFO: [Synth 8-638] synthesizing module 'wr_chnl' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24159]
+INFO: [Synth 8-506] null port 'FaultInjectECC' ignored [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24126]
+INFO: [Synth 8-638] synthesizing module 'wrap_brst' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12455]
+INFO: [Synth 8-256] done synthesizing module 'wrap_brst' (0#1) [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12455]
+INFO: [Synth 8-226] default block is never used [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25502]
+INFO: [Synth 8-638] synthesizing module 'ua_narrow' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:11989]
+INFO: [Synth 8-226] default block is never used [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12168]
+INFO: [Synth 8-226] default block is never used [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:12207]
+INFO: [Synth 8-256] done synthesizing module 'ua_narrow' (0#1) [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:11989]
+INFO: [Synth 8-226] default block is never used [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25832]
+INFO: [Synth 8-638] synthesizing module 'SRL_FIFO' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:133]
+INFO: [Synth 8-3491] module 'FDR' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38695' bound to instance 'Data_Exists_DFF' of component 'FDR' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:230]
+INFO: [Synth 8-6157] synthesizing module 'FDR' [/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38695]
+INFO: [Synth 8-6155] done synthesizing module 'FDR' (0#1) [/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38695]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:82830' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:247]
+INFO: [Synth 8-6157] synthesizing module 'MUXCY_L' [/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:82830]
+INFO: [Synth 8-6155] done synthesizing module 'MUXCY_L' (0#1) [/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:82830]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:137043' bound to instance 'XORCY_I' of component 'XORCY' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:254]
+INFO: [Synth 8-6157] synthesizing module 'XORCY' [/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:137043]
+INFO: [Synth 8-6155] done synthesizing module 'XORCY' (0#1) [/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:137043]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38708' bound to instance 'FDRE_I' of component 'FDRE' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:260]
+INFO: [Synth 8-6157] synthesizing module 'FDRE' [/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38708]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (0#1) [/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38708]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:82830' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:247]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:137043' bound to instance 'XORCY_I' of component 'XORCY' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:254]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38708' bound to instance 'FDRE_I' of component 'FDRE' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:260]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:82830' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:247]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:137043' bound to instance 'XORCY_I' of component 'XORCY' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:254]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38708' bound to instance 'FDRE_I' of component 'FDRE' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:260]
+INFO: [Synth 8-3491] module 'MUXCY_L' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:82830' bound to instance 'MUXCY_L_I' of component 'MUXCY_L' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:247]
+INFO: [Synth 8-3491] module 'XORCY' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:137043' bound to instance 'XORCY_I' of component 'XORCY' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:254]
+INFO: [Synth 8-3491] module 'FDRE' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:38708' bound to instance 'FDRE_I' of component 'FDRE' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:260]
+INFO: [Synth 8-3491] module 'SRL16E' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:132148' bound to instance 'SRL16E_I' of component 'SRL16E' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:271]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:132148]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:132148]
+INFO: [Synth 8-3491] module 'SRL16E' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:132148' bound to instance 'SRL16E_I' of component 'SRL16E' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:271]
+INFO: [Synth 8-3491] module 'SRL16E' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:132148' bound to instance 'SRL16E_I' of component 'SRL16E' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:271]
+INFO: [Synth 8-3491] module 'SRL16E' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:132148' bound to instance 'SRL16E_I' of component 'SRL16E' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:271]
+INFO: [Synth 8-3491] module 'SRL16E' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:132148' bound to instance 'SRL16E_I' of component 'SRL16E' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:271]
+INFO: [Synth 8-3491] module 'SRL16E' declared at '/home/dess/workspace/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:132148' bound to instance 'SRL16E_I' of component 'SRL16E' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:271]
+INFO: [Synth 8-256] done synthesizing module 'SRL_FIFO' (0#1) [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:133]
+INFO: [Synth 8-256] done synthesizing module 'wr_chnl' (0#1) [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:24159]
+WARNING: [Synth 8-6778] Component port with null array found, Will be ignored [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:30020]
+INFO: [Synth 8-638] synthesizing module 'rd_chnl' [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:14746]
+WARNING: [Synth 8-6774] Null subtype or type declaration found [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15184]
+INFO: [Synth 8-3919] null assignment ignored [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15184]
+WARNING: [Synth 8-6774] Null subtype or type declaration found [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15189]
+INFO: [Synth 8-3919] null assignment ignored [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15189]
+WARNING: [Synth 8-6774] Null subtype or type declaration found [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15190]
+INFO: [Synth 8-3919] null assignment ignored [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15190]
+WARNING: [Synth 8-6774] Null subtype or type declaration found [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15197]
+INFO: [Synth 8-3919] null assignment ignored [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15197]
+WARNING: [Synth 8-6774] Null subtype or type declaration found [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15202]
+INFO: [Synth 8-3919] null assignment ignored
+INFO: [Synth 8-226] default block is never used [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:16131]
+INFO: [Synth 8-256] done synthesizing module 'rd_chnl' (0#1) [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:14746]
+INFO: [Synth 8-256] done synthesizing module 'full_axi' (0#1) [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:29280]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl_top' (0#1) [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:30527]
+INFO: [Synth 8-256] done synthesizing module 'axi_bram_ctrl' (0#1) [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:31528]
+INFO: [Synth 8-256] done synthesizing module 'ulp_axi_bram_ctrl_0_0' (0#1) [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_axi_bram_ctrl_0_0/synth/ulp_axi_bram_ctrl_0_0.vhd:115]
+WARNING: [Synth 8-6014] Unused sequential element curr_awsize_reg_reg was removed.  [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25318]
+WARNING: [Synth 8-6014] Unused sequential element aw_active_d1_reg was removed.  [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:25743]
+WARNING: [Synth 8-6014] Unused sequential element GEN_NO_RD_CMD_OPT.curr_arsize_reg_reg was removed.  [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:15998]
+WARNING: [Synth 8-6014] Unused sequential element GEN_NO_RD_CMD_OPT.do_cmplt_burst_reg was removed.  [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ipshared/f80b/hdl/axi_bram_ctrl_v4_1_rfs.vhd:21244]
+WARNING: [Synth 8-7129] Port curr_axlen[7] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port curr_axlen[6] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port curr_axlen[5] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port curr_axlen[4] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_ld[6] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[14] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[13] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[12] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[11] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bram_addr_int[10] in module wrap_brst is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARLOCK in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARCACHE[3] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARCACHE[2] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARCACHE[1] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARCACHE[0] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARPROT[2] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARPROT[1] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_ARPROT[0] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Enable_ECC in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Arb2AR_Active in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[14] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[13] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[12] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[11] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[10] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[9] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[8] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[7] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_BRAM_Addr[6] in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Sng_arb_Arready in module rd_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWLOCK in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWCACHE[3] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWCACHE[2] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWCACHE[1] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWCACHE[0] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWPROT[2] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWPROT[1] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AXI_AWPROT[0] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Enable_ECC in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[511] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[510] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[509] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[508] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[507] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[506] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[505] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[504] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[503] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[502] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[501] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[500] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[499] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[498] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[497] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[496] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[495] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[494] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[493] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[492] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[491] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[490] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[489] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[488] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[487] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[486] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[485] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[484] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[483] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[482] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[481] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[480] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[479] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[478] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[477] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[476] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[475] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[474] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[473] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[472] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[471] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[470] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[469] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[468] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[467] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[466] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[465] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[464] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[463] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[462] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[461] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[460] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[459] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[458] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[457] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[456] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[455] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[454] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[453] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[452] in module wr_chnl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FaultInjectData[451] in module wr_chnl is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3428.652 ; gain = 404.734 ; free physical = 100529 ; free virtual = 226299
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2631.931; parent = 2499.614; children = 133.113
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4428.602; parent = 3428.656; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3446.465 ; gain = 422.547 ; free physical = 100470 ; free virtual = 226240
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2631.931; parent = 2499.614; children = 133.113
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4446.414; parent = 3446.469; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 3446.465 ; gain = 422.547 ; free physical = 100458 ; free virtual = 226228
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2631.931; parent = 2499.614; children = 133.113
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4446.414; parent = 3446.469; children = 999.945
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.09 . Memory (MB): peak = 3452.402 ; gain = 0.000 ; free physical = 100322 ; free virtual = 226096
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_axi_bram_ctrl_0_0/ulp_axi_bram_ctrl_0_0_ooc.xdc] for cell 'U0'
+create_clock: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3560.125 ; gain = 0.000 ; free physical = 102056 ; free virtual = 227830
+Finished Parsing XDC File [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.gen/my_rm/bd/ulp/ip/ulp_axi_bram_ctrl_0_0/ulp_axi_bram_ctrl_0_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.runs/ulp_axi_bram_ctrl_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.runs/ulp_axi_bram_ctrl_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3560.125 ; gain = 0.000 ; free physical = 102102 ; free virtual = 227876
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  FDR => FDRE: 1 instance 
+  MUXCY_L => MUXCY: 4 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3560.125 ; gain = 0.000 ; free physical = 102093 ; free virtual = 227867
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/dess/workspace/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 3560.125 ; gain = 536.207 ; free physical = 101162 ; free virtual = 226937
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2631.931; parent = 2499.614; children = 134.836
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4560.074; parent = 3560.129; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcku15p-ffva1156-2LV-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 3560.125 ; gain = 536.207 ; free physical = 101146 ; free virtual = 226921
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2631.931; parent = 2499.614; children = 134.836
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4560.074; parent = 3560.129; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.runs/ulp_axi_bram_ctrl_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 3560.125 ; gain = 536.207 ; free physical = 101122 ; free virtual = 226897
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2631.931; parent = 2499.614; children = 134.836
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4560.074; parent = 3560.129; children = 999.945
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'GEN_WDATA_SM_NO_ECC_DUAL_REG_WREADY.wr_data_sm_cs_reg' in module 'wr_chnl'
+INFO: [Synth 8-802] inferred FSM for state register 'GEN_NO_RD_CMD_OPT.GEN_AR_DUAL.rd_addr_sm_cs_reg' in module 'rd_chnl'
+INFO: [Synth 8-802] inferred FSM for state register 'GEN_NO_RD_CMD_OPT.rd_data_sm_cs_reg' in module 'rd_chnl'
+INFO: [Synth 8-802] inferred FSM for state register 'GEN_NO_RD_CMD_OPT.rlast_sm_cs_reg' in module 'rd_chnl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+               w8_awaddr |                              001 |                              001
+            brst_wr_data |                              010 |                              011
+          b2b_w8_wr_data |                              011 |                              100
+             sng_wr_data |                              100 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'GEN_WDATA_SM_NO_ECC_DUAL_REG_WREADY.wr_data_sm_cs_reg' using encoding 'sequential' in module 'wr_chnl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                                0 |                               00
+               ld_araddr |                                1 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'GEN_NO_RD_CMD_OPT.GEN_AR_DUAL.rd_addr_sm_cs_reg' using encoding 'sequential' in module 'rd_chnl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+          w8_throttle_b2 |                              001 |                              101
+             w8_throttle |                              010 |                              010
+        w8_2nd_last_data |                              011 |                              011
+            w8_last_data |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'GEN_NO_RD_CMD_OPT.rlast_sm_cs_reg' using encoding 'sequential' in module 'rd_chnl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                             0000 |                             0000
+                sng_addr |                             0001 |                             0011
+                sec_addr |                             0010 |                             0100
+               full_pipe |                             0011 |                             0101
+           full_throttle |                             0100 |                             0110
+               last_addr |                             0101 |                             0111
+           last_throttle |                             0110 |                             1000
+               last_data |                             0111 |                             1001
+       last_data_ar_pend |                             1000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'GEN_NO_RD_CMD_OPT.rd_data_sm_cs_reg' using encoding 'sequential' in module 'rd_chnl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 3560.125 ; gain = 536.207 ; free physical = 100806 ; free virtual = 226582
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2631.931; parent = 2499.614; children = 135.497
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4560.074; parent = 3560.129; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    9 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 1     
+	   3 Input    6 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 6     
+	   2 Input    5 Bit       Adders := 16    
+	   2 Input    4 Bit       Adders := 12    
+	   2 Input    3 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	              512 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 5     
+	                6 Bit    Registers := 10    
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 1118  
++---Muxes : 
+	   2 Input  512 Bit        Muxes := 1     
+	   5 Input    9 Bit        Muxes := 2     
+	   2 Input    9 Bit        Muxes := 8     
+	   8 Input    8 Bit        Muxes := 4     
+	   2 Input    8 Bit        Muxes := 4     
+	   2 Input    6 Bit        Muxes := 21    
+	   9 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 10    
+	   5 Input    3 Bit        Muxes := 4     
+	   2 Input    3 Bit        Muxes := 11    
+	   4 Input    2 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 92    
+	   5 Input    1 Bit        Muxes := 15    
+	   3 Input    1 Bit        Muxes := 1     
+	   9 Input    1 Bit        Muxes := 24    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1968 (col length:264)
+BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 3560.125 ; gain = 536.207 ; free physical = 103409 ; free virtual = 229207
+Synthesis current peak Physical Memory [PSS] (MB): peak = 2631.931; parent = 2499.614; children = 138.840
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4560.074; parent = 3560.129; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:59 ; elapsed = 00:01:04 . Memory (MB): peak = 3845.008 ; gain = 821.090 ; free physical = 106615 ; free virtual = 232404
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3045.082; parent = 2903.373; children = 141.717
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4844.957; parent = 3845.012; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:02 ; elapsed = 00:01:07 . Memory (MB): peak = 3892.609 ; gain = 868.691 ; free physical = 106275 ; free virtual = 232071
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3078.523; parent = 2936.841; children = 141.717
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4892.559; parent = 3892.613; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:03 ; elapsed = 00:01:08 . Memory (MB): peak = 3908.625 ; gain = 884.707 ; free physical = 106030 ; free virtual = 231826
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3083.204; parent = 2941.538; children = 141.717
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4908.574; parent = 3908.629; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 3911.594 ; gain = 887.676 ; free physical = 105853 ; free virtual = 231650
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3090.773; parent = 2946.611; children = 144.162
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4911.543; parent = 3911.598; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 3911.594 ; gain = 887.676 ; free physical = 105843 ; free virtual = 231639
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3090.773; parent = 2946.611; children = 144.162
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4911.543; parent = 3911.598; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 3911.594 ; gain = 887.676 ; free physical = 105812 ; free virtual = 231608
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3091.909; parent = 2947.754; children = 144.162
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4911.543; parent = 3911.598; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:10 ; elapsed = 00:01:16 . Memory (MB): peak = 3911.594 ; gain = 887.676 ; free physical = 105810 ; free virtual = 231606
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3091.909; parent = 2947.754; children = 144.162
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4911.543; parent = 3911.598; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:11 ; elapsed = 00:01:17 . Memory (MB): peak = 3911.594 ; gain = 887.676 ; free physical = 105791 ; free virtual = 231588
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3091.909; parent = 2947.754; children = 144.162
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4911.543; parent = 3911.598; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:11 ; elapsed = 00:01:17 . Memory (MB): peak = 3911.594 ; gain = 887.676 ; free physical = 105786 ; free virtual = 231582
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3091.925; parent = 2947.770; children = 144.162
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4911.543; parent = 3911.598; children = 999.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY8  |     2|
+|2     |LUT1    |     3|
+|3     |LUT2    |    23|
+|4     |LUT3    |   582|
+|5     |LUT4    |    59|
+|6     |LUT5    |   101|
+|7     |LUT6    |   263|
+|8     |MUXCY_L |     3|
+|9     |MUXF7   |     1|
+|10    |SRL16E  |     6|
+|11    |XORCY   |     4|
+|12    |FDR     |     1|
+|13    |FDRE    |  1842|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:11 ; elapsed = 00:01:17 . Memory (MB): peak = 3911.594 ; gain = 887.676 ; free physical = 105781 ; free virtual = 231577
+Synthesis current peak Physical Memory [PSS] (MB): peak = 3091.932; parent = 2947.776; children = 144.162
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 4911.543; parent = 3911.598; children = 999.945
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 652 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:01 ; elapsed = 00:01:07 . Memory (MB): peak = 3911.594 ; gain = 774.016 ; free physical = 105806 ; free virtual = 231602
+Synthesis Optimization Complete : Time (s): cpu = 00:01:11 ; elapsed = 00:01:17 . Memory (MB): peak = 3911.602 ; gain = 887.676 ; free physical = 105802 ; free virtual = 231598
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3911.602 ; gain = 0.000 ; free physical = 105905 ; free virtual = 231701
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3960.219 ; gain = 0.000 ; free physical = 105772 ; free virtual = 231568
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  (CARRY4) => CARRY8: 1 instance 
+  FDR => FDRE: 1 instance 
+
+Synth Design complete, checksum: c2673712
+INFO: [Common 17-83] Releasing license: Synthesis
+98 Infos, 159 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:27 ; elapsed = 00:01:31 . Memory (MB): peak = 3960.219 ; gain = 2020.957 ; free physical = 105990 ; free virtual = 231787
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.runs/ulp_axi_bram_ctrl_0_0_synth_1/ulp_axi_bram_ctrl_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ulp_axi_bram_ctrl_0_0, cache-ID = ce4a0a4e4674fae8
+INFO: [Coretcl 2-1174] Renamed 10 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/uni/project/smartssd/add_two_numbers/_x/link/vivado/vpl/prj/prj.runs/ulp_axi_bram_ctrl_0_0_synth_1/ulp_axi_bram_ctrl_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ulp_axi_bram_ctrl_0_0_utilization_synth.rpt -pb ulp_axi_bram_ctrl_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 18 01:14:14 2026...
